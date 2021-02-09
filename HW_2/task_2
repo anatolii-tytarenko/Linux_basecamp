@@ -1,0 +1,1 @@
+head -c 1024 /dev/zero > task_2.output

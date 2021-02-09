@@ -1,0 +1,1 @@
+cp -r other* test_dir_[a-b9] /tmp
