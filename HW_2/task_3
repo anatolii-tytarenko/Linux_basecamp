@@ -1,1 +1,1 @@
-echo Standard input! | cat - task_3.output
+cat > task_3.output
