@@ -1,0 +1,1 @@
+dd if=/dev/zero of=task_2.output bs=1 count=0 seek=1024 #OR touch task_2.output && fallocate -o 0 -l 1024 -z task_2.output

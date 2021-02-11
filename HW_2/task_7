@@ -1,0 +1,1 @@
+echo "Directory `find /etc/*.d -type d ` is found!" #unfortunatly don't work and -name "*.d" outputs more unwished results
