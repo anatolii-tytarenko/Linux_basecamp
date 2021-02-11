@@ -1,0 +1,1 @@
+head /dev/urandom -c 1024 > task_2.output

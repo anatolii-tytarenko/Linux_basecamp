@@ -1,0 +1,9 @@
+cp test_dir_f/ /tmp/
+cp test_dir_1/ /tmp/
+cp -r other_test_dir_a/ /tmp/
+cp -r other_test_dir_1/ /tmp/
+cp -r test_dir_a/ /tmp/
+cp -r test_dir_b/ /tmp/
+cp -r test_dir_c/ /tmp/
+cp -r test_dir_9/ /tmp/
+cp -r test_dir_d/ /tmp/
