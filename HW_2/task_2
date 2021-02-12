@@ -1,1 +1,1 @@
-truncate -s 1024
+truncate -s 1024 task_2.output
