@@ -1,0 +1,1 @@
+ls /etc/ -c | tee task_11.output
