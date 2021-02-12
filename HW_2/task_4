@@ -1,0 +1,1 @@
+(mv some_strange_file file_is_not_strange;mv file_is_not_strange tmp/)
