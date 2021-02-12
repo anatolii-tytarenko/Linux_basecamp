@@ -1,0 +1,1 @@
+dd if=/dev/urandom of=task_2.output bs=1k count=1
