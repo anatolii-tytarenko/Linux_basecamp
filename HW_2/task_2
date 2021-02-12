@@ -1,1 +1,1 @@
-allocate -l 1024 task_2.output
+fallocate -l 1024 task_2.output
