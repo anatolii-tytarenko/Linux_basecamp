@@ -1,1 +1,1 @@
-cp -r *_dir_[^f,^1] /tmp/.
+cp -r other* test_dir_[^f,^1] /tmp/.
