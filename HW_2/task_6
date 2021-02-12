@@ -1,0 +1,1 @@
+find /tmp/ -type d -name '*test_dir_[1-9, a-d]' -delete && rm -rf /tmp/file_is_not_strange

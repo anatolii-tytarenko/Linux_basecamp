@@ -1,0 +1,1 @@
+find . -type d -name '*test_dir_[1-9, a-d]' -not -name 'test_dir_1' -exec cp -r '{}' '/tmp/{}' ';'

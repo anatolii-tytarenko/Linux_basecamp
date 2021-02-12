@@ -1,0 +1,1 @@
+find /etc/ -type d -iname '*.d' -printf 'Directory %p is found! \n' 2> /dev/null
