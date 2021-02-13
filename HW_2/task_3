@@ -1,1 +1,1 @@
-ls -la ~ > task_3.output
+cat task_3.output > task_3.output

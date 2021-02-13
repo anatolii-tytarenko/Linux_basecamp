@@ -1,1 +1,1 @@
-find /etc/ -name '*d' -exec echo "Directory {} is found!" \;
+find /etc/ -type d -name '*d' -exec echo "Directory {} is found!" \;

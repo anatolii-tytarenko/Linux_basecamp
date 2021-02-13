@@ -1,1 +1,1 @@
-cp -R ./!(test_dir_f|test_dir_1) /tmp/
+cp -R ./*dir*!(test_dir_f|test_dir_1) /tmp/
