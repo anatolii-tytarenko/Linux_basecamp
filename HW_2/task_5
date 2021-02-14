@@ -1,1 +1,1 @@
-cp -r other_test_dir[1a] test_dir_[abc9d] temp/
+cp -r other_test_dir* test_dir_9 test_dir_[a-d] /temp/
