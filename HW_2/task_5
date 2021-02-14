@@ -1,2 +1,1 @@
-cp -r other_test_dir_a other_test_dir_1 test_dir_a  test_dir_b test_dir_c test_dir_9 test_dir_d tmp/
-cp test_dir_f test_dir_1 tmp/
+cp -R other_test_dir_1 other_test_dir_a test_dir_[2-9a-d] /tmp/
