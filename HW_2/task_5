@@ -1,1 +1,1 @@
-cp -Rf other_test_dir? test_dir_[!f1] /tmp/
+cp -R other_test_dir? test_dir_[2-9a-d] /tmp/
