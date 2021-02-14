@@ -1,1 +1,1 @@
-rm -r /tmp/*test_dir_* /tmp/file_is_no_strange 
+rm -r /tmp/*test_dir_* /tmp/file_is_not_strange 
