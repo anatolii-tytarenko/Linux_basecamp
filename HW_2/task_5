@@ -1,1 +1,1 @@
-cp -r *test_dir_[^1f] other_test_dir_1' /tmp/
+cp -r *test_dir_[^1f] other_test_dir_1 /tmp/

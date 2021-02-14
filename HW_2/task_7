@@ -1,1 +1,3 @@
-find /etc/*.d -type d -exec echo Dyrectory {} is found! \;
+find /etc/ -type d -name "*.d" -exec echo Dyrectory {} is found! \;
+#However find /etc/*.d -type d \; does not output subdirectories,
+#+ so we will get less results and "first level" only  
