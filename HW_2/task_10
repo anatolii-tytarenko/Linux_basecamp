@@ -1,1 +1,1 @@
-cat $2< task_10.input
+cat task_10.input 1>&2

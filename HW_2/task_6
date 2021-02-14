@@ -1,1 +1,1 @@
-rm /tmp/*strange /tmp/*_test_dir* /tmp/test_dir_[a-d2-9]
+rm -rf /tmp/*strange /tmp/*test_dir*
