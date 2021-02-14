@@ -1,1 +1,1 @@
-rm -rf /tmp/o*[1a]; rm -fr /tmp/t*[a-d2-9]
+rm -rf /tmp/o*[1a]; rm -rf /tmp/t*[a-d2-9]
