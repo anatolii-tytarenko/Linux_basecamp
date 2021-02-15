@@ -1,1 +1,1 @@
-cp -Rf other_test_dir_*  test_dir_* /tmp/
+cp -Rf *test_dir_[!f1] /tmp/
