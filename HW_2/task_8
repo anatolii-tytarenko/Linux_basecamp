@@ -1,1 +1,1 @@
-cat task_8_test_? > task_8.output
+cat task_8_test_* > task_8.output
