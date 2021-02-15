@@ -1,0 +1,1 @@
+echo "Echo of standart input first 16 bytes" | cut -b 1-16
