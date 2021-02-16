@@ -1,4 +1,4 @@
-Running Test # 1 [           check_self_pid]: [32mPassed
+ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 2 [ check_background_process]: [32mPassed
 [0mRunning Test # 3 [        check_stop_signal]: [31mTest #3 is failed!
 [0mRunning Test # 4 [        check_kill_signal]: [32mPassed
