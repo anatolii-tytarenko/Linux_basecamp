@@ -1,1 +1,1 @@
-echo hello there mister file > task_3.output.
+cat > task_3.output.
