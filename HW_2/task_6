@@ -1,1 +1,1 @@
-rm -r /tmp/*test_* /tmp/file_is_not
+rm -rf /tmp/*

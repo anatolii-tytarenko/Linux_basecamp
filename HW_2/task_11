@@ -1,1 +1,1 @@
-ls -a1 /etc/ |& tee task_11.output
+ls -1 /etc/ | tee task_11.output
