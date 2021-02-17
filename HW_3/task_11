@@ -1,0 +1,10 @@
+#!/bin/bash
+int=1
+if [ -d /tmp/test_dir ]; then
+	for i in {0..999}
+	do
+	echo $(($i + $int)) > /tmp/test_dir/file_$i
+	done
+else
+	echo "Directory not found!"
+fi

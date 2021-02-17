@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -n "$1" ]; then
+	while [ -n "$1" ]
+	do
+	echo "$1"
+	shift
+	done
+else
+	echo "No arguments!" >&2
+	exit 1
+fi
