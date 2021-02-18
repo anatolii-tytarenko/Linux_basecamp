@@ -1,5 +1,0 @@
-if [ -h /tmp/task_7 ]; then
-	echo "Link exist"
-	else
-	ln -s ~/.bashsrc /tmp/task_7
-fi

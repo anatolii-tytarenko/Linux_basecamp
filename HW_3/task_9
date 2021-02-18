@@ -1,8 +1,0 @@
-#!/bin/bash
-VAR=
-if [ -z $VAR ]; then
-	VAR="My first variable"
-	echo $VAR
-else
-echo "VAR is not empty!"
-fi

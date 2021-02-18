@@ -1,2 +1,0 @@
-printf "Username: %s\n" "$(whoami)"
-printf "Hostname: %s\n" "$(hostname)"
