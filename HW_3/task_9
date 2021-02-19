@@ -1,0 +1,1 @@
+var=""; test -z $var && var="My first shell variable"; echo $var

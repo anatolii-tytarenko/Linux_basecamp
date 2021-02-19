@@ -1,0 +1,1 @@
+test -h /tmp/task_7 || ln -s ~/.bashrc /tmp/task_7

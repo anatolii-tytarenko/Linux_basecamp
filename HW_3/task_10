@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ -n "$1" ]
+then
+count=1
+for param in "$@"
+do
+echo "$count"
+count=$(( $count + 1 ))
+done
+else
+echo “No arguments!” >&2
+fi
