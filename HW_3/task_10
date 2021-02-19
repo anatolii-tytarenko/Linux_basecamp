@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [ -n "$1" ]
 then
 count=1
