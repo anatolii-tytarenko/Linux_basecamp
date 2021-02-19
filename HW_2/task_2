@@ -1,2 +1,2 @@
-fallocate -l 1024 task_2.output.file
+fallocate -l 1024 task_2.output.
 
