@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -n "$1" ]
+ then
+  for arg in "$@"
+   do
+    echo "$arg"
+   done
+ else
+  echo "No arguments!" 1>&2
+fi

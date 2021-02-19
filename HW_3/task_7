@@ -1,0 +1,1 @@
+[ -L /tmp/task_7 ] && [ -f /tmp/task_7 ] || ln -s ~/.bashrc /tmp/task_7

@@ -1,0 +1,1 @@
+ps -fp $$ >task_5.output

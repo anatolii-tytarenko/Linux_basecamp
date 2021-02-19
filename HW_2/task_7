@@ -1,1 +1,1 @@
-find /etc/ -maxdepth 1 -name "*.d" -printf "Directory "%p" is found!"'\n'
+find /etc/ -type d -name \"*.d\" -printf \"Directory \"%p\" is found!\"'\n'

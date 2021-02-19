@@ -1,1 +1,1 @@
-hexdump -s 16
+head -c 16

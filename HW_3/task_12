@@ -1,0 +1,24 @@
+#!/bin/bash
+if [ -n "$1" ]
+ then
+  for arg in "$@"
+   do
+    echo "$arg"
+   done
+ else
+  echo "No arguments!" 1>&2
+fi
+[ -d /tmp/test_dir ] && for ((x=0 ; x<1000 ; x++)); do  echo "number $((++x)) " > /tmp/test_dir/file_$((--x)).txt; done || echo "Create dirictory /tmp/test_dir"
+
+echo "enter number"
+read n
+case $n in
+1)
+echo "sam text" ;;
+2)
+echo "sam text" ;;
+3)
+echo "sam text" ;;
+*)
+echo "some text" ;;
+esac
