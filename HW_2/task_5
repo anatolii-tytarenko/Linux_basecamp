@@ -1,0 +1,1 @@
+cp -r other* test_dir_[^f,^1] /tmp/
