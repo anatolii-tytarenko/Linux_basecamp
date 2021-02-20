@@ -1,13 +1,15 @@
 #!/bin/bash
 
-if [ -n "$1" ]
+if [ $# -eq 0 ]
 then
+>&2 echo "No arguments!"
+exit 1
+fi
 count=1
-for param in "$@"
+while [ -n "$1" ]
 do
 echo "$count"
 count=$(( $count + 1 ))
+shift
 done
-else
-echo “No arguments!” >&2
-fi
+

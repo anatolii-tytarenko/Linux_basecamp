@@ -1,1 +1,1 @@
-printf "Username: %s\nHostname: %s\n" `whoami` `hostname`
+printf "Username:\t%s\nHostname:\t%s\n" `whoami` `hostname`

@@ -1,1 +1,1 @@
-kill -TSTP $!
+kill -STOP $!

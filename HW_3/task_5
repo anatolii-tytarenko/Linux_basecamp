@@ -1,1 +1,1 @@
-ps -o ppid,pid,uname,comm --pid=$$  > task_5.output
+ps -o ppid,pid,uname,command--pid=$$  > task_5.output
