@@ -1,1 +1,1 @@
-t -d /tmp/test_dir || for i in {0..999}; do echo $(( $i+1 )) > /tmp/test_dir/"file_${i}.txt"; done
+[ -d /tmp/test_dir ] && for i in {0..999}; do echo $(( $i+1 )) > /tmp/test_dir/"file_${i}.txt"; done
