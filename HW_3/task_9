@@ -1,1 +1,1 @@
-[ -z "$VAR" ] && VAR="My first shell variable" && echo $VAR || echo "Variable not empty"
+[ -z "$VAR" ] && VAR="My first shell"; echo $VAR

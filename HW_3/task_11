@@ -1,1 +1,1 @@
-[ -d /tmp/test_dir ] && for ((x=0 ; x<1000 ; x++)); do  echo "number $((++x)) " > /tmp/test_dir/file_$((--x)).txt; done || echo "Create dirictory /tmp/test_dir"
+[ -d /tmp/test_dir ] && for ((x=0 ; x<1000 ; x++)); do  echo " $((++x)) " > /tmp/test_dir/file_$((--x)).txt; done

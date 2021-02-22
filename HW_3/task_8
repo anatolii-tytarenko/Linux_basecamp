@@ -1,1 +1,1 @@
-printf Username: $USER\nHostname: $HOSTNAME\n
+printf "Username:\t$USER\nHostname:\t$HOSTNAME\n"

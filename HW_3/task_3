@@ -1,1 +1,1 @@
-kill -19 \$!
+kill SIGSTOP '$!'
