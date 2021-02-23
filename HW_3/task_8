@@ -1,1 +1,0 @@
-printf "Username:	"; whoami; printf "Hostname:	"; hostname
