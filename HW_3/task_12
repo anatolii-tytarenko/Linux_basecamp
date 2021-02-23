@@ -1,0 +1,210 @@
+#!/bin/bash
+help=0
+if [ -n "$1" ]		#есть ли переменная $1
+	then
+		if [ $1 == -h ]		#проверка -h
+			then
+			help=1
+				if [ -n "$2" ]
+					then
+					help=2
+				fi
+			else
+				if [ $1 == -c ] || [ $1 == -r ] || [ $1 == -C ] && [ -n "$2" ]		#правильный ли ввод $1 и $2
+					then
+					name="$2"				#запись $2
+					create=0
+					perm=0
+					force=0
+					size=0
+					remove=0
+					check=0
+					inf=0
+					eror=0
+					case "$1" in					#опрос переменной $1
+					-c) create=1;;
+					-r) remove=1;;
+					-C) check=1;;
+					esac
+					while [ -n "$3" ]		#опрос переменной $3 и выше
+						do
+						case "$3" in
+						-p) perm="$4"
+						shift;;
+						-s) size="$4"
+						shift;;
+						-f) force=1;;
+						-a) inf=1;;
+						-*) eror=1;;
+						esac
+						shift
+					done
+					if [ $perm -lt 777 ] 2>/dev/null		#проверка корректности ввода
+						then
+						:
+						else
+						eror=1
+					fi
+					if [ $size -ge 0 ] 2>/dev/null			#проверка корректности ввода
+						then
+						:
+						else
+						eror=1
+					fi
+						if [ $eror = 0 ]			#проверка ошибки перед цыклом
+							then
+								if [ $create = 1 ]			#есть ли флаг -c
+									then
+										if [ $remove = 0 ] && [ $check = 0 ] && [ $inf = 0 ] && [ $eror = 0 ]		#проверка лишних переменных
+											then
+												if test -e "$name"				#проверка есть ли фаил
+													then
+														if [ $force = 1 ]		#наличие -f
+															then
+																if [ $size != 0 ]		#если задан -s
+																	then
+																	tmp="$(stat -c %a ./$name)"
+																	chmod 777 ./$name
+																	fallocate -l $size ./$name
+																	chmod $tmp ./$name
+																	else
+																	tmp="$(stat -c %a ./$name)"
+																	chmod 777 ./$name
+																	> $name
+																	chmod $tmp ./$name
+																fi
+																if [ $perm != 0 ]		#если задан -p
+																	then
+																	chmod $perm ./$name
+																	else
+																	chmod 664 ./$name
+																fi
+															else
+															echo "cannot create file $name : file exists" >&2
+															exit 1
+														fi
+													else
+														if [ $size != 0 ]		#если задан -s
+															then
+															fallocate -l $size ./$name
+															else
+															> $name
+														fi
+														if [ $perm != 0 ]		#если задан -p
+															then
+															chmod $perm ./$name
+															else
+															chmod 664 ./$name
+														fi
+												fi
+											else
+											help=2
+										fi
+								fi
+								if [ $remove = 1 ]			#есть ли флаг -r
+									then
+										if [ $create = 0 ] && [ $perm = 0 ] && [ $size = 0 ] && [ $check = 0 ] && [ $inf = 0 ] && [ $eror = 0 ]	#проверка лишних переменных
+											then
+												if test -e ./$name		#есть ли фаил/папка
+													then
+														if [ $force = 1 ]		#проверка флага -f
+															then
+																if test -d ./$name		#проверка фаил или папка
+																	then
+																	rmdir ./$name
+																	else
+																	rm -f ./$name
+																fi
+															else
+																if test -w ./$name		#проверка возможности записи
+																	then
+																		if test -d ./$name		#проверка фаил или папка
+																			then
+																			rmdir ./$name
+																			else
+																			rm -f ./$name
+																		fi
+																	else
+																		if test -d ./$name		#проверка фаил или папка
+																			then
+																			echo "write-protected directory $name" >&2
+																			exit 1
+																			else
+																			echo "write-protected file $name" >&2
+																			exit 1
+																		fi
+																fi
+														fi
+													else
+													echo "cannot remove $name : No such file or directory"
+													exit 1
+												fi
+											else
+											help=2
+										fi
+								fi
+								if [ $check = 1 ]			#есть ли флаг -С
+									then
+										if [ $create = 0 ] && [ $perm = 0 ] && [ $force = 0 ] && [ $size = 0 ] && [ $remove = 0 ] && [ $eror = 0 ]		#проверка лишних переменных
+											then
+												if [ $inf = 1 ]			#проверка флага -a
+													then
+														if test -e "$name"			#есть ли фаил
+															then
+															echo "File $name exists"
+															stat $name				#дополнительная информация о фаиле
+															else
+															echo "File $name is missed" >&2
+															exit 1
+														fi
+													else
+														if test -e "$name"		#есть ли фаил
+															then
+															echo "File $name exists"
+															else
+															echo "File $name is missed" >&2
+															exit 1
+														fi
+												fi
+											else
+											help=2
+										fi
+								fi
+							else
+							help=2
+						fi
+					else
+					help=2
+				fi
+		fi
+	else
+	help=2
+fi
+if [ $help != 0 ]		#проверка статуса $help
+	then
+		if [ $help = 1 ]
+			then			#вывод без ошибки
+			echo -e "Usage: task_12 [command] [filename] [options]" "\n"
+			echo "-c --create [name] [options] create file"
+			echo "	[-p] [perm]             permission (if not specified 664 will be used)"
+			echo "	[-f]                    rewrite already existing file"
+			echo "	[-s] [size]             size of created file (0 by default)"
+			echo "-r --remove [name] [options] remove file or directory"
+			echo "	[-f]                    force remove read-only files"
+			echo "-C --check [name] [options] check if file or directory exists"
+			echo "	[-a]			show more informatin (type, permission, size...)"
+			echo "-h --help                 show this help"
+			else			#вывод с ошибкой
+			echo -e "Usage: task_12 [command] [filename] [options]" "\n" >&2
+			echo "-c --create [name] [options] create file" >&2
+			echo "	[-p] [perm]             permission (if not specified 664 will be used)" >&2
+			echo "	[-f]                    rewrite already existing file" >&2
+			echo "	[-s] [size]             size of created file (0 by default)" >&2
+			echo "-r --remove [name] [options] remove file or directory" >&2
+			echo "	[-f]                    force remove read-only files" >&2
+			echo "-C --check [name] [options] check if file or directory exists" >&2
+			echo "	[-a]			show more informatin (type, permission, size...)" >&2
+			echo "-h --help                 show this help" >&2
+			exit 1
+		fi
+fi

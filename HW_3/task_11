@@ -1,0 +1,1 @@
+for (( x=0; x < 1000; x++)); do y=$(( $x + 1)); echo $y > file_$x.txt; done
