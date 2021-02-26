@@ -1,0 +1,105 @@
+#!/bin/bash
+
+EXIT_STATUS=1
+OPT_PERM=664
+OPT_FORCE=
+OPT_PRINT_ALL=
+OPT_FILENAME=
+OPT_SIZE=0
+CMD=
+
+USAGE="Usage: $(basename $0) [command] [filename] [options]
+
+-c  --create [name] [options]   create file
+      [-p] [perm]                 permission (if not specified 664 will be used)
+      [-f]                        rewrite already existing file
+      [-s] [size]                 size of created file (0 by default)
+-r  --remove [name] [options]   remove file or directory
+      [-f]                        force remove read-only files
+-C  --check [name] [options]    check if file or directory exists
+      [-a]                        show more information (type, permission, size)
+-h  --help                      show this help"
+
+create_func() {
+	[ -e "$OPT_FILENAME" ] && {
+		[ "$OPT_FORCE" != "1" ] && {
+			echo "File $OPT_FILENAME is already exist!" >&2
+			return 1
+		}
+		rm -f "$OPT_FILENAME"
+	}
+	head -c "$OPT_SIZE" /dev/zero > "$OPT_FILENAME" && chmod "$OPT_PERM" "$OPT_FILENAME"
+}
+
+remove_func() {
+	if [ "$OPT_FORCE" = "1" ]; then
+		rm -rf "$OPT_FILENAME"
+	else
+		rm -r "$OPT_FILENAME"
+	fi
+}
+
+
+check_func() {
+	[ -e "$OPT_FILENAME" ] || {
+		echo "File $OPT_FILENAME is missed" >&2
+		return 1
+	}
+	if [ -z "$OPT_PRINT_ALL" ]; then
+		echo "File $OPT_FILENAME exists"
+	else
+		stat --printf "Name:\t\t%n\nType:\t\t%F\nOwner:\t\t%U\nAccess rights:\t%a\nSize:\t\t%s\n" $OPT_FILENAME
+	fi
+	return 0
+}
+
+
+while [ $# -gt 0 ]; do
+	shift_val=1
+	cmd="$1"
+	shift
+	val=$1
+	case $cmd in
+		--create|-c)
+			CMD=create_func
+			OPT_FILENAME="$val"
+			;;
+		--remove|-r)
+			CMD=remove_func
+			OPT_FILENAME="$val"
+			;;
+		--check|-C)
+			CMD=check_func
+			OPT_FILENAME="$val"
+			;;
+		-p)
+			OPT_PERM="$val"
+			;;
+		-f)
+			OPT_FORCE=1
+			shift_val=0
+			;;
+		-a)
+			OPT_PRINT_ALL=1
+			shift_val=0
+			;;
+		-s)
+			OPT_SIZE=$val
+			;;
+		--help|-h)
+			EXIT_STATUS=0
+			;&
+		*)
+			echo "$USAGE"
+			exit $EXIT_STATUS
+			;;
+	esac
+	shift $shift_val
+done
+
+[ -z "$OPT_FILENAME" ] && echo "$USAGE" && exit $EXIT_STATUS
+
+eval $CMD
+EXIT_STATUS=$?
+
+exit $EXIT_STATUS
