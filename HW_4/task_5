@@ -1,1 +1,1 @@
-find /etc -maxdepth 1 -iname "*dns*" -o -name "*dhcp*" | xargs basename -s /etc
+grep -rn -e dns -e dhcp -l | xargs basename -s /etc
