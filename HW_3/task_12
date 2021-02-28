@@ -1,0 +1,27 @@
+#!/bin/bash
+
+info="-c  --create [name] [options]   create file
+      [-p] [perm]                 permission (if not specified 664 will be used)
+      [-f]                        rewrite already existing file
+      [-s] [size]                 size of created file (0 by default)
+-r  --remove [name] [options]   remove file or directory
+      [-f]                        force remove read-only files
+-C  --check [name] [options]    check if file or directory exists
+      [-a]                        show more information (type, permission, size...)
+-h  --help                      show this help"
+
+
+while [[ $# -gt 0 ]]
+do
+key="$1"
+
+case $key in
+        -h|--help)
+        echo "$info"
+        shift # past argument
+        ;;
+        *) #если введено с клавиатуры то, что в case не описывается, выполнять следующее:
+        echo "Invalid command, use -h or --help"
+        exit 1
+esac #окончание оператора case.
+done
