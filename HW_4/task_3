@@ -1,0 +1,1 @@
+cut -d: -f1,6,7 --output-delimiter='<--->' /etc/passwd |grep sh
