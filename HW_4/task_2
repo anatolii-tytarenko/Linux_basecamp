@@ -1,1 +1,1 @@
-ls -S -lhr
+sort -k 5 -rh

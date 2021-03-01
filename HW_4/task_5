@@ -1,1 +1,1 @@
-find /etc -type d -iname "*dhcp*" -o -type d -iname "*dns*" | xargs -n 1 basename
+find /etc -type d -iname "*dhcp*" -o -type d -iname "*dns*" | xargs -n1 basename

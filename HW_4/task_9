@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ $# -eq 0 ]
+then
+tail ~/.bash_history
+fi
+if [[ "$1" =~ ^[0-9]+$ ]]
+then
+tail -$1 ~/.bash_history
+else
+grep $1 ~/.bash_history
+fi
+

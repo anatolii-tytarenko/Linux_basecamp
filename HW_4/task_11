@@ -1,0 +1,1 @@
+find . /usr/bin -type f -size +100000b -printf '%f %s\n'
