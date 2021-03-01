@@ -1,0 +1,1 @@
+ckl (){ sed "y/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ[]{};':\",.\/<>?@#\$^&\`~фисвуапршолдьтщзйкіегмцчняФИСВУАПРШОЛДЬТЩЗЙКІЕГМЦЧНЯхїХЇжєЖЄбюБЮ№ёЁ/фисвуапршолдьтщзйкіегмцчняФИСВУАПРШОЛДЬТЩЗЙКІЕГМЦЧНЯхїХЇжєЖЄбю.БЮ,\"№;:?ёЁabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ[]{};':\",.<>#\`~/"; }
