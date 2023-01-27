@@ -32,11 +32,13 @@ klop:x:1001:1001:klop,klop,,:/home/klop:/bin/bash
 [0mRunning Test # 6 [                 check_rm]: [32mPassed
 [0mRunning Test # 7 [               check_find]: [32mPassed
 [0mRunning Test # 8 [              check_unite]: [32mPassed
-[0mRunning Test # 9 [               check_crop]: [31mFile task_9 is missed
-[0m[31mTest #9 is failed!
+[0mRunning Test # 9 [               check_crop]: [32mPassed
 [0mRunning Test #10 [     check_error_redirect]: [32mPassed
 [0mRunning Test #11 [                check_tee]: [32mPassed
 [0mRunning Test #12 [               check_hash]: [32mPassed
-[0mRunning Test #13 [     check_commit_message]: [32mPassed
+[0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
+Iurii Zhovtobriukh: Homework #2
+Attempt #19
+[0m[31mTest #13 is failed!
 [0m[96mYour evaluation is finished! You've got 12 from 13 points.
 [0m
