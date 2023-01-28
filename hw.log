@@ -1,36 +1,9 @@
 Running Test # 1 [         check_empty_file]: [31mFile task_1 is greater than 0
 [0m[31mTest #1 is failed!
-[0mRunning Test # 2 [          check_1024_file]: [31mFile task_2.output is missed
-[0m[31mTest #2 is failed!
-[0mRunning Test # 3 [    check_redirected_file]: root:x:0:0:root:/root:/bin/bash
-daemon:x:1:1:daemon:/usr/sbin:/bin/sh
-bin:x:2:2:bin:/bin:/bin/sh
-sys:x:3:3:sys:/dev:/bin/sh
-sync:x:4:65534:sync:/bin:/bin/sync
-games:x:5:60:games:/usr/games:/bin/sh
-man:x:6:12:man:/var/cache/man:/bin/sh
-lp:x:7:7:lp:/var/spool/lpd:/bin/sh
-mail:x:8:8:mail:/var/mail:/bin/sh
-news:x:9:9:news:/var/spool/news:/bin/sh
-uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
-proxy:x:13:13:proxy:/bin:/bin/sh
-www-data:x:33:33:www-data:/var/www:/bin/sh
-backup:x:34:34:backup:/var/backups:/bin/sh
-list:x:38:38:Mailing List Manager:/var/list:/bin/sh
-irc:x:39:39:ircd:/var/run/ircd:/bin/sh
-gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
-nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
-libuuid:x:100:101::/var/lib/libuuid:/bin/sh
-syslog:x:101:103::/home/syslog:/bin/false
-messagebus:x:102:105::/var/run/dbus:/bin/false
-whoopsie:x:103:106::/nonexistent:/bin/false
-landscape:x:104:109::/var/lib/landscape:/bin/false
-test:x:1000:1000:test,,,:/home/test:/bin/bash
-sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin
-klop:x:1001:1001:klop,klop,,:/home/klop:/bin/bash
-[31mFile task_3.output wasn't created
+[0mRunning Test # 2 [          check_1024_file]: [32mPassed
+[0mRunning Test # 3 [    check_redirected_file]: [31mFile task_3.output wasn't created
 [0m[31mTest #3 is failed!
-[0mRunning Test # 4 [         check_moved_file]: [31mFile /tmp/file_is_not_strange is missed
+[0mRunning Test # 4 [         check_moved_file]: [31mMoved file is not the same as source file
 [0m[31mTest #4 is failed!
 [0mRunning Test # 5 [               check_copy]: [31mTest #5 is failed!
 [0mRunning Test # 6 [                 check_rm]: [32mPassed
@@ -42,7 +15,7 @@ klop:x:1001:1001:klop,klop,,:/home/klop:/bin/bash
 [0mRunning Test #12 [               check_hash]: [31mTest #12 is failed!
 [0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
 Ivan Khomenko: Homework #2
-Attempt #1
+Attempt #3
 [0m[31mTest #13 is failed!
-[0m[96mYour evaluation is finished! You've got 4 from 13 points.
+[0m[96mYour evaluation is finished! You've got 5 from 13 points.
 [0m
