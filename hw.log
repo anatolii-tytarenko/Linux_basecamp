@@ -1,0 +1,25 @@
+Running Test # 1 [         check_empty_file]: [32mPassed
+[0mRunning Test # 2 [          check_1024_file]: [31mFile task_2.output is missed
+[0m[31mTest #2 is failed!
+[0mRunning Test # 3 [    check_redirected_file]: [32mPassed
+[0mRunning Test # 4 [         check_moved_file]: [31mFile /tmp/file_is_not_strange is missed
+[0m[31mTest #4 is failed!
+[0mRunning Test # 5 [               check_copy]: [31mTest #5 is failed!
+[0mRunning Test # 6 [                 check_rm]: [32mPassed
+[0mRunning Test # 7 [               check_find]: [32mPassed
+[0mRunning Test # 8 [              check_unite]: [31mFile task_8 is missed
+[0m[31mTest #8 is failed!
+[0mRunning Test # 9 [               check_crop]: [31mFile task_9 is missed
+[0m[31mTest #9 is failed!
+[0mRunning Test #10 [     check_error_redirect]: [31mFile task_10 is missed
+[0m[31mTest #10 is failed!
+[0mRunning Test #11 [                check_tee]: [31mFile task_11 is missed
+[0m[31mTest #11 is failed!
+[0mRunning Test #12 [               check_hash]: [31mFile task_12 is missed
+[0m[31mTest #12 is failed!
+[0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
+Vadym Gerasimov: Homework #2
+Attempt #1
+[0m[31mTest #13 is failed!
+[0m[96mYour evaluation is finished! You've got 4 from 13 points.
+[0m
