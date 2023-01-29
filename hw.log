@@ -1,0 +1,19 @@
+Running Test # 1 [         check_empty_file]: [32mPassed
+[0mRunning Test # 2 [          check_1024_file]: [32mPassed
+[0mRunning Test # 3 [    check_redirected_file]: [32mPassed
+[0mRunning Test # 4 [         check_moved_file]: [32mPassed
+[0mRunning Test # 5 [               check_copy]: [31mTest #5 is failed!
+[0mRunning Test # 6 [                 check_rm]: [32mPassed
+[0mRunning Test # 7 [               check_find]: [31mTest #7 is failed!
+[0mRunning Test # 8 [              check_unite]: [32mPassed
+[0mRunning Test # 9 [               check_crop]: [31mTest #9 is failed!
+[0mRunning Test #10 [     check_error_redirect]: [32mPassed
+[0mRunning Test #11 [                check_tee]: [31mWrong output or its format
+[0m[31mTest #11 is failed!
+[0mRunning Test #12 [               check_hash]: [32mPassed
+[0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
+Vitalii Tkachuk: Homework #2
+Attempt #2
+[0m[31mTest #13 is failed!
+[0m[96mYour evaluation is finished! You've got 8 from 13 points.
+[0m
