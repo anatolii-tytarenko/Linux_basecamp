@@ -3,8 +3,7 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test # 3 [    check_redirected_file]: [32mPassed
 [0mRunning Test # 4 [         check_moved_file]: [32mPassed
 [0mRunning Test # 5 [               check_copy]: [31mTest #5 is failed!
-[0mRunning Test # 6 [                 check_rm]: [31mSomething is still in the /tmp/ directory: /tmp/file_is_not_strange
-[0m[31mTest #6 is failed!
+[0mRunning Test # 6 [                 check_rm]: [32mPassed
 [0mRunning Test # 7 [               check_find]: [31mTest #7 is failed!
 [0mRunning Test # 8 [              check_unite]: [32mPassed
 [0mRunning Test # 9 [               check_crop]: [32mPassed
@@ -13,7 +12,7 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test #12 [               check_hash]: [31mTest #12 is failed!
 [0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
 Pavel Baidaus: Homework #2
-Attempt #22
+Attempt #24
 [0m[31mTest #13 is failed!
-[0m[96mYour evaluation is finished! You've got 8 from 13 points.
+[0m[96mYour evaluation is finished! You've got 9 from 13 points.
 [0m
