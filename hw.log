@@ -10,9 +10,9 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test #10 [     check_error_redirect]: [32mPassed
 [0mRunning Test #11 [                check_tee]: [32mPassed
 [0mRunning Test #12 [               check_hash]: [31mTest #12 is failed!
-[0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
+[0mRunning Test #13 [     check_commit_message]: [96mYour commit message should be like the following:
 Pavel Baidaus: Homework #2
-Attempt #32
-[0m[31mTest #13 is failed!
-[0m[96mYour evaluation is finished! You've got 9 from 13 points.
+Attempt #8
+[0m[32mPassed
+[0m[96mYour evaluation is finished! You've got 10 from 13 points.
 [0m
