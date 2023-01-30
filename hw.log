@@ -12,7 +12,7 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test #12 [               check_hash]: [32mPassed
 [0mRunning Test #13 [     check_commit_message]: [31mYour commit message should be like the following:
 Volodymyr Nesterenko: Homework #2
-Attempt #1
+Attempt #2
 [0m[31mTest #13 is failed!
 [0m[96mYour evaluation is finished! You've got 12 from 13 points.
 [0m
