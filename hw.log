@@ -23,6 +23,9 @@ Running Test # 1 [           check_self_pid]: [31mTest #1 is failed!
 [0m[31mTest #14 is failed!
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mWrong exit status or message while checking unexisting file
 [0m[31mTest #15 is failed!
-[0mRunning Test #16 [    _check_commit_message]: [32mPassed
+[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
+Anatolii Tytarenko: Homework #3
+Attempt #1
+[0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 1 from 16 points.
 [0m
