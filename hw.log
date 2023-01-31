@@ -4,13 +4,6 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test # 4 [         check_moved_file]: [32mPassed
 [0mRunning Test # 5 [               check_copy]: [32mPassed
 [0mRunning Test # 6 [                 check_rm]: [31mSomething is still in the /tmp/ directory: /tmp/file_is_not_strange
-/tmp/other_test_dir_1
-/tmp/other_test_dir_a
-/tmp/test_dir_9
-/tmp/test_dir_a
-/tmp/test_dir_b
-/tmp/test_dir_c
-/tmp/test_dir_d
 [0m[31mTest #6 is failed!
 [0mRunning Test # 7 [               check_find]: [31mTest #7 is failed!
 [0mRunning Test # 8 [              check_unite]: [31mCheck your output:
