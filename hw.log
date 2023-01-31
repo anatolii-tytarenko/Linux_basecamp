@@ -1,18 +1,28 @@
-Running Test # 1 [         check_empty_file]: [32mPassed
-[0mRunning Test # 2 [          check_1024_file]: [32mPassed
-[0mRunning Test # 3 [    check_redirected_file]: [32mPassed
-[0mRunning Test # 4 [         check_moved_file]: [32mPassed
-[0mRunning Test # 5 [               check_copy]: [32mPassed
-[0mRunning Test # 6 [                 check_rm]: [32mPassed
-[0mRunning Test # 7 [               check_find]: [32mPassed
-[0mRunning Test # 8 [              check_unite]: [32mPassed
-[0mRunning Test # 9 [               check_crop]: [32mPassed
-[0mRunning Test #10 [     check_error_redirect]: [32mPassed
-[0mRunning Test #11 [                check_tee]: [32mPassed
-[0mRunning Test #12 [               check_hash]: [32mPassed
-[0mRunning Test #13 [     check_commit_message]: [96mYour commit message should be like the following:
-Anatolii Tytarenko: Homework #2
-Attempt #2
-[0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 13 from 13 points.
+Running Test # 1 [           check_self_pid]: [31mTest #1 is failed!
+[0mRunning Test # 2 [ check_background_process]: [31mdd wasn't started
+[0m[31mTest #2 is failed!
+[0mRunning Test # 3 [        check_stop_signal]: [31mTest #3 is failed!
+[0mRunning Test # 4 [        check_kill_signal]: [31mTest #4 is failed!
+[0mRunning Test # 5 [            check_ps_info]: [31mPID is missed
+[0m[31mTest #5 is failed!
+[0mRunning Test # 6 [              check_alias]: [31mTest #6 is failed!
+[0mRunning Test # 7 [               check_link]: [31mNew symlink is absent or it links to wrong target
+[0m[31mTest #7 is failed!
+[0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
+[0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
+[0m[31mTest #9 is failed!
+[0mRunning Test #10 [             check_script]: [31mWrong behavior with no arguments
+[0m[31mTest #10 is failed!
+[0mRunning Test #11 [       check_file_creator]: [31mErrors while rewriting regular file
+[0m[31mTest #11 is failed!
+[0mRunning Test #12 [   check_2nd_script_usage]: [31mWrong behavior with no arguments
+[0m[31mTest #12 is failed!
+[0mRunning Test #13 [ _check_2nd_script_create]: [31mFile wasn't created or it has wrong default access rules
+[0m[31mTest #13 is failed!
+[0mRunning Test #14 [ _check_2nd_script_remove]: [31mWrong exit status or error message while deleting unexisting file
+[0m[31mTest #14 is failed!
+[0mRunning Test #15 [   _check_2nd_script_info]: [31mWrong exit status or message while checking unexisting file
+[0m[31mTest #15 is failed!
+[0mRunning Test #16 [    _check_commit_message]: [32mPassed
+[0m[96mYour evaluation is finished! You've got 1 from 16 points.
 [0m
