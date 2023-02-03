@@ -1,6 +1,5 @@
 Running Test # 1 [           check_self_pid]: [31mTest #1 is failed!
-[0mRunning Test # 2 [ check_background_process]: dd if=/dev/zero of=/dev/null bs=512 &
-[32mPassed
+[0mRunning Test # 2 [ check_background_process]: [32mPassed
 [0mRunning Test # 3 [        check_stop_signal]: [32mPassed
 [0mRunning Test # 4 [        check_kill_signal]: [32mPassed
 [0mRunning Test # 5 [            check_ps_info]: [31mCommand is missed
