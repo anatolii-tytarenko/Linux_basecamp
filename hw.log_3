@@ -1,8 +1,7 @@
 Running Test # 1 [           check_self_pid]: [32mPassed
-[0mRunning Test # 2 [ check_background_process]: dd if=/dev/zero of=/dev/null &
-[32mPassed
-[0mRunning Test # 3 [        check_stop_signal]: [31mTest #3 is failed!
-[0mRunning Test # 4 [        check_kill_signal]: [31mTest #4 is failed!
+[0mRunning Test # 2 [ check_background_process]: [32mPassed
+[0mRunning Test # 3 [        check_stop_signal]: [32mPassed
+[0mRunning Test # 4 [        check_kill_signal]: [32mPassed
 [0mRunning Test # 5 [            check_ps_info]: [32mPassed
 [0mRunning Test # 6 [              check_alias]: [31mTest #6 is failed!
 [0mRunning Test # 7 [               check_link]: [31mNew symlink is absent or it links to wrong target
@@ -10,7 +9,8 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
 [0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
 [0m[31mTest #9 is failed!
-[0mRunning Test #10 [             check_script]: [31mTest #10 is failed!
+[0mRunning Test #10 [             check_script]: [31mInfinite loop detected!
+[0m[31mTest #10 is failed!
 [0mRunning Test #11 [       check_file_creator]: [31mErrors while rewriting regular file
 [0m[31mTest #11 is failed!
 [0m[31mFile task_12.enc is missed
@@ -21,5 +21,5 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 Ivan Khomenko: Homework #3
 Attempt #1
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 4 from 16 points.
+[0m[96mYour evaluation is finished! You've got 6 from 16 points.
 [0m
