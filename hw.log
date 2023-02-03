@@ -6,8 +6,7 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test # 4 [         check_moved_file]: [32mPassed
 [0mRunning Test # 5 [               check_copy]: [32mPassed
 [0mRunning Test # 6 [                 check_rm]: [32mPassed
-[0mRunning Test # 7 [               check_find]: [31mFile task_7 is missed
-[0m[31mTest #7 is failed!
+[0mRunning Test # 7 [               check_find]: [32mPassed
 [0mRunning Test # 8 [              check_unite]: [31mFile task_8.output wasn't created
 [0m[31mTest #8 is failed!
 [0mRunning Test # 9 [               check_crop]: [32mPassed
@@ -18,7 +17,7 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test #12 [               check_hash]: [32mPassed
 [0mRunning Test #13 [     check_commit_message]: [96mYour commit message should be like the following:
 Vitalii Korobtsov: Homework #2
-Attempt #5
+Attempt #6
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 7 from 13 points.
+[0m[96mYour evaluation is finished! You've got 8 from 13 points.
 [0m
