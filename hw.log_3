@@ -1,0 +1,22 @@
+Running Test # 1 [           check_self_pid]: [32mPassed
+[0mRunning Test # 2 [ check_background_process]: dd if=/dev/zero of=/dev/null &
+[32mPassed
+[0mRunning Test # 3 [        check_stop_signal]: [31mTest #3 is failed!
+[0mRunning Test # 4 [        check_kill_signal]: [31mTest #4 is failed!
+[0mRunning Test # 5 [            check_ps_info]: [32mPassed
+[0mRunning Test # 6 [              check_alias]: [32mPassed
+[0mRunning Test # 7 [               check_link]: [32mPassed
+[0mRunning Test # 8 [          check_user_host]: [32mPassed
+[0mRunning Test # 9 [           check_variable]: [32mPassed
+[0mRunning Test #10 [             check_script]: [32mPassed
+[0mRunning Test #11 [       check_file_creator]: [32mPassed
+[0mRunning Test #12 [   check_2nd_script_usage]: [32mPassed
+[0mRunning Test #13 [ _check_2nd_script_create]: [32mPassed
+[0mRunning Test #14 [ _check_2nd_script_remove]: [32mPassed
+[0mRunning Test #15 [   _check_2nd_script_info]: [32mPassed
+[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
+Anatolii Tytarenko: Homework #3
+Attempt #3
+[0m[32mPassed
+[0m[96mYour evaluation is finished! You've got 14 from 16 points.
+[0m
