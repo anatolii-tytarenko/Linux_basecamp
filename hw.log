@@ -7,14 +7,13 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test # 7 [               check_find]: [32mPassed
 [0mRunning Test # 8 [              check_unite]: [32mPassed
 [0mRunning Test # 9 [               check_crop]: [32mPassed
-[0mRunning Test #10 [     check_error_redirect]: Information wasn't redirected to stderr
-[31mTest #10 is failed!
+[0mRunning Test #10 [     check_error_redirect]: [32mPassed
 [0mRunning Test #11 [                check_tee]: [31mData in the file is not the same as in the stdout
 [0m[31mTest #11 is failed!
 [0mRunning Test #12 [               check_hash]: [32mPassed
 [0mRunning Test #13 [     check_commit_message]: [96mYour commit message should be like the following:
 Vitalii Korobtsov: Homework #2
-Attempt #9
+Attempt #10
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 11 from 13 points.
+[0m[96mYour evaluation is finished! You've got 12 from 13 points.
 [0m
