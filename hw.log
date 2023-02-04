@@ -1,7 +1,6 @@
 Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test # 2 [          check_1024_file]: [32mPassed
-[0mRunning Test # 3 [    check_redirected_file]: [31mCreated file is not the same as source file
-[0m[31mTest #3 is failed!
+[0mRunning Test # 3 [    check_redirected_file]: [32mPassed
 [0mRunning Test # 4 [         check_moved_file]: [32mPassed
 [0mRunning Test # 5 [               check_copy]: [32mPassed
 [0mRunning Test # 6 [                 check_rm]: [32mPassed
@@ -15,7 +14,7 @@ Running Test # 1 [         check_empty_file]: [32mPassed
 [0mRunning Test #12 [               check_hash]: [32mPassed
 [0mRunning Test #13 [     check_commit_message]: [96mYour commit message should be like the following:
 Vitalii Korobtsov: Homework #2
-Attempt #8
+Attempt #9
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 10 from 13 points.
+[0m[96mYour evaluation is finished! You've got 11 from 13 points.
 [0m
