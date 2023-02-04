@@ -5,7 +5,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 5 [            check_ps_info]: [32mPassed
 [0mRunning Test # 6 [              check_alias]: [31mTest #6 is failed!
 [0mRunning Test # 7 [               check_link]: link is exist
-[31mRegular file wasn't replased with symlink
+[31mNew symlink is absent or it links to wrong target
 [0m[31mTest #7 is failed!
 [0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
 [0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
