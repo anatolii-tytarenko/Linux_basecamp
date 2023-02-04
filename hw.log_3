@@ -1,13 +1,13 @@
 Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 2 [ check_background_process]: [32mPassed
-[0mRunning Test # 3 [        check_stop_signal]: [32mPassed
-[0mRunning Test # 4 [        check_kill_signal]: [32mPassed
+[0mRunning Test # 3 [        check_stop_signal]: [31mTest #3 is failed!
+[0mRunning Test # 4 [        check_kill_signal]: [31mTest #4 is failed!
 [0mRunning Test # 5 [            check_ps_info]: [32mPassed
 [0mRunning Test # 6 [              check_alias]: [31mTest #6 is failed!
 [0mRunning Test # 7 [               check_link]: Yes
 [31mRegular file wasn't replased with symlink
 [0m[31mTest #7 is failed!
-[0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
+[0mRunning Test # 8 [          check_user_host]: [32mPassed
 [0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
 [0m[31mTest #9 is failed!
 [0mRunning Test #10 [             check_script]: [31mWrong behavior with arguments
@@ -20,7 +20,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Pavel Baidaus: Homework #3
-Attempt #2
+Attempt #3
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 6 from 16 points.
+[0m[96mYour evaluation is finished! You've got 5 from 16 points.
 [0m
