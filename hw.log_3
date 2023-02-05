@@ -7,7 +7,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 7 [               check_link]: link is exist
 [31mNew symlink is absent or it links to wrong target
 [0m[31mTest #7 is failed!
-[0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
+[0mRunning Test # 8 [          check_user_host]: [32mPassed
 [0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
 [0m[31mTest #9 is failed!
 [0mRunning Test #10 [             check_script]: [31mInfinite loop detected!
@@ -22,5 +22,5 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 Ivan Khomenko: Homework #3
 Attempt #6
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 5 from 16 points.
+[0m[96mYour evaluation is finished! You've got 6 from 16 points.
 [0m
