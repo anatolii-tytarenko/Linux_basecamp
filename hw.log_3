@@ -10,7 +10,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 8 [          check_user_host]: [32mPassed
 [0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
 [0m[31mTest #9 is failed!
-[0mRunning Test #10 [             check_script]: [31mWrong behavior with no arguments
+[0mRunning Test #10 [             check_script]: [31mWrong behavior with arguments
 [0m[31mTest #10 is failed!
 [0mRunning Test #11 [       check_file_creator]: [31mErrors while rewriting regular file
 [0m[31mTest #11 is failed!
@@ -20,7 +20,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Pavel Baidaus: Homework #3
-Attempt #10
+Attempt #11
 [0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 8 from 16 points.
 [0m
