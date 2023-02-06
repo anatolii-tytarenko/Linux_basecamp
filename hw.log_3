@@ -9,8 +9,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 8 [          check_user_host]: [32mPassed
 [0mRunning Test # 9 [           check_variable]: [32mPassed
 [0mRunning Test #10 [             check_script]: [32mPassed
-[0mRunning Test #11 [       check_file_creator]: [31mWrong file content
-[0m[31mTest #11 is failed!
+[0mRunning Test #11 [       check_file_creator]: [32mPassed
 [0mRunning Test #12 [   check_2nd_script_usage]: [31mWrong behavior with no arguments
 [0m[31mTest #12 is failed!
 [0mRunning Test #13 [ _check_2nd_script_create]: [31mFile wasn't created or it has wrong default access rules
@@ -19,6 +18,9 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0m[31mTest #14 is failed!
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mWrong exit status or message while checking unexisting file
 [0m[31mTest #15 is failed!
-[0mRunning Test #16 [    _check_commit_message]: [32mPassed
-[0m[96mYour evaluation is finished! You've got 10 from 16 points.
+[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
+Volodymyr Nesterenko: Homework #3
+Attempt #4
+[0m[32mPassed
+[0m[96mYour evaluation is finished! You've got 11 from 16 points.
 [0m
