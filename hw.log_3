@@ -6,7 +6,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 6 [              check_alias]: [32mPassed
 [0mRunning Test # 7 [               check_link]: [32mPassed
 [0mRunning Test # 8 [          check_user_host]: [32mPassed
-[0mRunning Test # 9 [           check_variable]: [31mVariable wasn't set or was set incorrectly
+[0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
 [0m[31mTest #9 is failed!
 [0mRunning Test #10 [             check_script]: [31mInfinite loop detected!
 [0m[31mTest #10 is failed!
