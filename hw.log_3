@@ -2,11 +2,11 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 2 [ check_background_process]: [32mPassed
 [0mRunning Test # 3 [        check_stop_signal]: [32mPassed
 [0mRunning Test # 4 [        check_kill_signal]: [32mPassed
-[0mRunning Test # 5 [            check_ps_info]: 10191  3898 klop     check_third_hw.
+[0mRunning Test # 5 [            check_ps_info]: 10191 10442 klop     check_third_hw.
 [31mPID is missed
 [0m[31mTest #5 is failed!
 [0mRunning Test # 6 [              check_alias]: [32mPassed
-[0mRunning Test # 7 [               check_link]: [31mRegular file wasn't replased with symlink
+[0mRunning Test # 7 [               check_link]: [31mYou've overwritten old symlink
 [0m[31mTest #7 is failed!
 [0mRunning Test # 8 [          check_user_host]: [32mPassed
 [0mRunning Test # 9 [           check_variable]: [32mPassed
@@ -18,7 +18,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Iurii Zhovtobriukh: Homework #3
-Attempt #11
+Attempt #12
 [0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 10 from 16 points.
 [0m
