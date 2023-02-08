@@ -2,8 +2,7 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test # 2 [               check_sort]: [32mPassed
 [0mRunning Test # 3 [       check_passwd_parse]: [32mPassed
 [0mRunning Test # 4 [            check_replace]: [32mPassed
-[0mRunning Test # 5 [               check_grep]: [31mInfinite loop detected!
-[0m[31mTest #5 is failed!
+[0mRunning Test # 5 [               check_grep]: [32mPassed
 [0mRunning Test # 6 [         check_substitute]: [32mPassed
 [0mRunning Test # 7 [           check_pass_gen]: [32mPassed
 [0mRunning Test # 8 [      check_del_commented]: [32mPassed
@@ -18,5 +17,5 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 Anatolii Tytarenko: Homework #4
 Attempt #3
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 15 from 16 points.
+[0m[96mYour evaluation is finished! You've got 16 from 16 points.
 [0m
