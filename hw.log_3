@@ -3,13 +3,13 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0m[31mFile task_3.enc is missed
 [0m[31mFile task_4.enc is missed
 [0mRunning Test # 5 [            check_ps_info]: 10191
-29666
+32576
 klop
  check_hw_daemon
 [31mPID is missed
 [0m[31mTest #5 is failed!
 [0mRunning Test # 6 [              check_alias]: [32mPassed
-[0mRunning Test # 7 [               check_link]: [31mNew symlink is absent or it links to wrong target
+[0mRunning Test # 7 [               check_link]: [31mYou've overwritten old symlink
 [0m[31mTest #7 is failed!
 [0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
 [0mRunning Test # 9 [           check_variable]: [32mPassed
@@ -21,7 +21,7 @@ klop
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Iurii Zhovtobriukh: Homework #3
-Attempt #5
+Attempt #6
 [0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 7 from 16 points.
 [0m
