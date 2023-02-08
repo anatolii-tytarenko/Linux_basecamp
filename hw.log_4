@@ -1,7 +1,7 @@
 Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test # 2 [               check_sort]: [32mPassed
 [0mRunning Test # 3 [       check_passwd_parse]: [32mPassed
-[0mRunning Test # 4 [            check_replace]: [31mTest #4 is failed!
+[0mRunning Test # 4 [            check_replace]: [32mPassed
 [0mRunning Test # 5 [               check_grep]: [31mTest #5 is failed!
 [0mRunning Test # 6 [         check_substitute]: [32mPassed
 [0mRunning Test # 7 [           check_pass_gen]: [32mPassed
@@ -14,5 +14,5 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [32mPassed
-[0m[96mYour evaluation is finished! You've got 11 from 16 points.
+[0m[96mYour evaluation is finished! You've got 12 from 16 points.
 [0m
