@@ -14,6 +14,9 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #13 [  _check_awk_additional_1]: [32mPassed
 [0mRunning Test #14 [  _check_awk_additional_2]: [32mPassed
 [0mRunning Test #15 [  _check_awk_additional_3]: [32mPassed
-[0mRunning Test #16 [    _check_commit_message]: [32mPassed
+[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
+Anatolii Tytarenko: Homework #4
+Attempt #3
+[0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 15 from 16 points.
 [0m
