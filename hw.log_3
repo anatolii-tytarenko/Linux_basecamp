@@ -6,18 +6,17 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 6 [              check_alias]: [32mPassed
 [0mRunning Test # 7 [               check_link]: [31mRegular file wasn't replased with symlink
 [0m[31mTest #7 is failed!
-[0mRunning Test # 8 [          check_user_host]: [31mTest #8 is failed!
-[0mRunning Test # 9 [           check_variable]: [31mVariable wasn't printed
+[0mRunning Test # 8 [          check_user_host]: [32mPassed
+[0mRunning Test # 9 [           check_variable]: [31mVariable wasn't set or was set incorrectly
 [0m[31mTest #9 is failed!
 [0mRunning Test #10 [             check_script]: [31mWrong behavior with no arguments
 [0m[31mTest #10 is failed!
-[0mRunning Test #11 [       check_file_creator]: [31mErrors while rewriting regular file
+[0mRunning Test #11 [       check_file_creator]: [31mWrong file content
 [0m[31mTest #11 is failed!
 [0mRunning Test #12 [   check_2nd_script_usage]: [31mWrong behavior with no arguments
 [0m[31mTest #12 is failed!
 [0mRunning Test #13 [ _check_2nd_script_create]: -c
 file_1
-Create dirictory /tmp/test_dir
 enter number
 some text
 [31mFile wasn't created or it has wrong default access rules
@@ -26,9 +25,6 @@ some text
 [0m[31mTest #14 is failed!
 [0mRunning Test #15 [   _check_2nd_script_info]: [31mWrong exit status or message while checking unexisting file
 [0m[31mTest #15 is failed!
-[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
-Vitalii Tkachuk: Homework #3
-Attempt #2
-[0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 5 from 16 points.
+[0mRunning Test #16 [    _check_commit_message]: [32mPassed
+[0m[96mYour evaluation is finished! You've got 6 from 16 points.
 [0m
