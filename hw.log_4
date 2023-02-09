@@ -1,0 +1,30 @@
+[31mFile task_1.enc is missed
+[0m[31mFile task_2.enc is missed
+[0m[31mFile task_3.enc is missed
+[0m[31mFile task_4.enc is missed
+[0m[31mFile task_5.enc is missed
+[0m[31mFile task_6.enc is missed
+[0m[31mFile task_7.enc is missed
+[0m[31mFile task_8.enc is missed
+[0m[31mFile task_9.enc is missed
+[0m[31mFile task_10.enc is missed
+[0mRunning Test #11 [       check_sorted_files]: [1;35m1c1,6[0;0m
+[1;31m< [0;0m
+[0;0m---[0;0m
+[1;34m> visudo 111088[0;0m
+[1;34m> pppd 301904[0;0m
+[1;34m> grub-probe 358320[0;0m
+[1;34m> rsyslogd 388220[0;0m
+[1;34m> sshd 531776[0;0m
+[1;34m> tcpdump 934088[0;0m
+[31mTest #11 is failed!
+[0m[31mFile task_12.enc is missed
+[0mRunning Test #13 [  _check_awk_additional_1]: [31mTest #13 is failed!
+[0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
+[0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
+[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
+Pavel Baidaus: Homework #4
+Attempt #0
+[0m[32mPassed
+[0m[96mYour evaluation is finished! You've got 1 from 16 points.
+[0m
