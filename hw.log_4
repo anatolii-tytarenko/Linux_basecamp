@@ -1,12 +1,12 @@
 Running Test # 1 [      check_to_upper_case]: [31mTest #1 is failed!
 [0mRunning Test # 2 [               check_sort]: [1;35m1,7c1,124[0;0m
 [1;31m< total 48K[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop   10 лют 10 03:46 task_2.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop   23 лют 10 03:46 task_1.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop   49 лют 10 03:46 task_11.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop   59 лют 10 03:46 task_7.enc[0;0m
-[1;31m< drwxrwxr-x 2 klop klop 4,0K лют 10 03:46 .[0;0m
-[1;31m< drwxrwxrwt 9 root root  28K лют 10 03:46 ..[0;0m
+[1;31m< drwxrwxrwt 9 root root  28K лют 10 04:02 ..[0;0m
+[1;31m< drwxrwxr-x 2 klop klop 4,0K лют 10 04:02 .[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop   59 лют 10 04:02 task_7.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop   49 лют 10 04:02 task_11.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop   23 лют 10 04:02 task_1.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop    9 лют 10 04:02 task_2.enc[0;0m
 [0;0m---[0;0m
 [1;34m> -rwxr-xr-x 1 root    root    913K лют 21  2017 tcpdump[0;0m
 [1;34m> -rwxr-xr-x 1 root    root    520K сер 11  2016 sshd[0;0m
