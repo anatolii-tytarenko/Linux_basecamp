@@ -1,10 +1,225 @@
-[31mFile task_1.enc is missed
-[0m[31mFile task_2.enc is missed
-[0m[31mFile task_3.enc is missed
-[0m[31mFile task_4.enc is missed
-[0m[31mFile task_5.enc is missed
+Running Test # 1 [      check_to_upper_case]: [32mPassed
+[0mRunning Test # 2 [               check_sort]: [1;35m1,7c1,124[0;0m
+[1;31m< total 24K[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 11 лют 13 10:09 task_2.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 23 лют 13 10:09 task_1.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 39 лют 13 10:09 task_4.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 61 лют 13 10:09 task_7.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 64 лют 13 10:09 task_3.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 82 лют 13 10:09 task_5.enc[0;0m
+[0;0m---[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    913K лют 21  2017 tcpdump[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    520K сер 11  2016 sshd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    380K жов  2  2014 rsyslogd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    350K лип  9  2016 grub-probe[0;0m
+[1;34m> -rwsr-xr-- 1 root    dip     295K кві 21  2015 pppd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    109K бер 12  2015 visudo[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     97K жов  5  2016 ntpdate[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     84K вер 13  2012 useradd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     83K вер 13  2012 usermod[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     82K лип  9  2016 grub-mkdevicemap[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     74K сер  6  2014 dmidecode[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     60K гру 13  2011 pppconfig[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     55K вер 13  2012 userdel[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     55K вер 13  2012 newusers[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     52K бер 31  2012 arp[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     51K вер 13  2012 groupmod[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     50K лис 17  2016 rmt-tar[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     50K жов  4  2011 logrotate[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     45K вер 13  2012 groupadd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     43K вер 13  2012 vipw[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     43K вер 13  2012 cppw[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     42K гру  8  2011 acpid[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     41K вер 13  2012 grpck[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     41K вер 13  2012 groupdel[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     41K вер 13  2012 chgpasswd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     39K чер 19  2012 cron[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     38K кві 17  2014 arpd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     38K бер 23  2017 zic[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     37K вер 13  2012 pwck[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     37K вер 13  2012 grpunconv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     37K вер 13  2012 grpconv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     37K вер 13  2012 chpasswd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     35K жов 20  2011 adduser[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     33K вер 13  2012 pwconv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     30K січ 14  2015 chroot[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     30K бер 23  2017 iconvconfig[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     28K вер 13  2012 pwunconv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     26K лют  4  2012 irqbalance[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     26K вер  9  2015 e4defrag[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     22K чер 18  2014 rtcwake[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     22K кві 21  2015 chat[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     22K гру 12  2011 update-passwd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     20K бер 17  2016 pam-auth-update[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     18K сер 12  2011 tcpdmatch[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     18K сер 12  2011 tcpdchk[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     18K лип  3  2011 pppoeconf[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     18K кві 21  2015 pppoe-discovery[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     18K жов 25  2011 atd[0;0m
+[1;34m> -rwsr-sr-x 1 libuuid libuuid  18K чер 18  2014 uuidd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     17K лис 10  2009 update-xmlcatalog[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     17K лип 26  2012 update-rc.d[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     17K кві 10  2012 update-rc.d-insserv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     17K жов 20  2011 deluser[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     14K чер 18  2014 readprofile[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     14K чер 18  2014 cytune[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     14K сер  6  2014 biosdecode[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     14K кві 21  2015 pppstats[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     14K кві 21  2015 pppdump[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     14K вер  9  2015 filefrag[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     12K лип 26  2012 invoke-rc.d[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,6K сер 12  2011 safe_finger[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K чер 18  2014 tunelp[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K чер 18  2014 ldattach[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K чер 18  2014 fdformat[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K кві 17  2012 mkinitramfs[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K кві  1  2012 setvesablank[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K вер  9  2015 e2freefrag[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,5K вер 23  2014 accessdb[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,4K сер  6  2014 vpddecode[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,4K сер  6  2014 ownership[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    9,0K вер 19  2011 update-initramfs[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    8,0K лип  9  2016 grub-mkconfig[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    6,5K жов 17  2011 locale-gen[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    6,5K бер 16  2017 aa-status[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    6,4K січ  6  2015 update-mime[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,7K лис  1  2010 update-catalog[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,5K сер 12  2011 try-from[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,5K сер 12  2011 tcpd[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,5K кві  1  2012 vcstime[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,5K вер  9  2015 mklost+found[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,4K чер 15  2016 install-info[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    5,4K вер 13  2012 nologin[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    4,8K бер 15  2012 dpkg-reconfigure[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    4,7K лип 26  2012 service[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    4,7K лип  2  2011 popularity-contest[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    4,5K лис  1  2010 install-sgmlcatalog[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    4,2K лют  8  2016 update-ca-certificates[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    3,6K кві  5  2012 ufw[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    3,6K бер 15  2012 dpkg-preconfigure[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    3,5K вер 13  2013 update-apt-xapian-index[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    3,4K лип  9  2016 grub-reboot[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    3,4K лип 22  2011 iptables-apply[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    3,0K бер 23  2017 update-locale[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    2,9K лип  9  2016 grub-set-default[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    2,9K бер 17  2016 pam_getenv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    2,9K бер 16  2017 aa-remove-unknown[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    2,6K бер  6  2010 laptop-detect[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    1,8K бер 23  2017 validlocale[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    1,7K бер 30  2012 update-info-dir[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    1,5K лип  9  2016 upgrade-from-grub-legacy[0;0m
+[1;34m> -rwxr-xr-x 1 root    root    1,1K гру 26  2011 update-usbids[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     749 бер 29  2012 remove-shell[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     693 бер 29  2012 add-shell[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     562 жов  5  2016 ntpdate-debian[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     540 лип  2  2011 popcon-largest-unused[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     330 кві 10  2012 update-bootsystem-insserv[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     241 сер 16  2011 update-grub-gfxpayload[0;0m
+[1;34m> -rwxr-xr-x 1 root    root     106 жов 20  2009 tzconfig[0;0m
+[1;34m> -rwxr-xr-x 1 root    root      64 лип  9  2016 update-grub[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      33 лип  9  2016 grub-mknetdir -> ../lib/grub/i386-pc/grub-mknetdir[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      32 лип  9  2016 grub-install -> ../lib/grub/i386-pc/grub-install[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      30 лип  9  2016 grub-setup -> ../lib/grub/i386-pc/grub-setup[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      26 чер 15  2016 update-alternatives -> ../bin/update-alternatives[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      24 чер 15  2016 dpkg-statoverride -> ../bin/dpkg-statoverride[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      21 вер  4  2015 rmt -> /etc/alternatives/rmt[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      18 чер 15  2016 dpkg-divert -> ../bin/dpkg-divert[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      14 бер  7  2013 ip6tables-apply -> iptables-apply[0;0m
+[1;34m> lrwxrwxrwx 1 root    root      11 лип  9  2016 update-grub2 -> update-grub[0;0m
+[1;34m> lrwxrwxrwx 1 root    root       9 бер 16  2017 apparmor_status -> aa-status[0;0m
+[1;34m> lrwxrwxrwx 1 root    root       7 жов 20  2011 delgroup -> deluser[0;0m
+[1;34m> lrwxrwxrwx 1 root    root       7 жов 20  2011 addgroup -> adduser[0;0m
+[1;34m> lrwxrwxrwx 1 root    root       4 вер 13  2012 vigr -> vipw[0;0m
+[1;34m> lrwxrwxrwx 1 root    root       4 вер 13  2012 cpgr -> cppw[0;0m
+[1;34m> total 4,9M[0;0m
+[31mTest #2 is failed!
+[0mRunning Test # 3 [       check_passwd_parse]: [1;35m1,21c1,21[0;0m
+[1;31m< root<--->/root<--->/bin/bash[0;0m
+[1;31m< daemon<--->/usr/sbin<--->/bin/sh[0;0m
+[1;31m< bin<--->/bin<--->/bin/sh[0;0m
+[1;31m< sys<--->/dev<--->/bin/sh[0;0m
+[1;31m< games<--->/usr/games<--->/bin/sh[0;0m
+[1;31m< man<--->/var/cache/man<--->/bin/sh[0;0m
+[1;31m< lp<--->/var/spool/lpd<--->/bin/sh[0;0m
+[1;31m< mail<--->/var/mail<--->/bin/sh[0;0m
+[1;31m< news<--->/var/spool/news<--->/bin/sh[0;0m
+[1;31m< uucp<--->/var/spool/uucp<--->/bin/sh[0;0m
+[1;31m< proxy<--->/bin<--->/bin/sh[0;0m
+[1;31m< www-data<--->/var/www<--->/bin/sh[0;0m
+[1;31m< backup<--->/var/backups<--->/bin/sh[0;0m
+[1;31m< list<--->/var/list<--->/bin/sh[0;0m
+[1;31m< irc<--->/var/run/ircd<--->/bin/sh[0;0m
+[1;31m< gnats<--->/var/lib/gnats<--->/bin/sh[0;0m
+[1;31m< nobody<--->/nonexistent<--->/bin/sh[0;0m
+[1;31m< libuuid<--->/var/lib/libuuid<--->/bin/sh[0;0m
+[1;31m< test<--->/home/test<--->/bin/bash[0;0m
+[1;31m< sshd<--->/var/run/sshd<--->/usr/sbin/nologin[0;0m
+[1;31m< klop<--->/home/klop<--->/bin/bash[0;0m
+[0;0m---[0;0m
+[1;34m> root <---> /root <---> /bin/bash[0;0m
+[1;34m> daemon <---> /usr/sbin <---> /bin/sh[0;0m
+[1;34m> bin <---> /bin <---> /bin/sh[0;0m
+[1;34m> sys <---> /dev <---> /bin/sh[0;0m
+[1;34m> sync <---> /bin <---> /bin/sync[0;0m
+[1;34m> games <---> /usr/games <---> /bin/sh[0;0m
+[1;34m> man <---> /var/cache/man <---> /bin/sh[0;0m
+[1;34m> lp <---> /var/spool/lpd <---> /bin/sh[0;0m
+[1;34m> mail <---> /var/mail <---> /bin/sh[0;0m
+[1;34m> news <---> /var/spool/news <---> /bin/sh[0;0m
+[1;34m> uucp <---> /var/spool/uucp <---> /bin/sh[0;0m
+[1;34m> proxy <---> /bin <---> /bin/sh[0;0m
+[1;34m> www-data <---> /var/www <---> /bin/sh[0;0m
+[1;34m> backup <---> /var/backups <---> /bin/sh[0;0m
+[1;34m> list <---> /var/list <---> /bin/sh[0;0m
+[1;34m> irc <---> /var/run/ircd <---> /bin/sh[0;0m
+[1;34m> gnats <---> /var/lib/gnats <---> /bin/sh[0;0m
+[1;34m> nobody <---> /nonexistent <---> /bin/sh[0;0m
+[1;34m> libuuid <---> /var/lib/libuuid <---> /bin/sh[0;0m
+[1;34m> test <---> /home/test <---> /bin/bash[0;0m
+[1;34m> klop <---> /home/klop <---> /bin/bash[0;0m
+[31mTest #3 is failed!
+[0mRunning Test # 4 [            check_replace]: [32mPassed
+[0mRunning Test # 5 [               check_grep]: [1;35m1c1,35[0;0m
+[1;31m< dhcp[0;0m
+[0;0m---[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> resolvconf[0;0m
+[1;34m> interfaces[0;0m
+[1;34m> debug[0;0m
+[1;34m> resolvconf[0;0m
+[1;34m> dhclient.conf[0;0m
+[1;34m> debug[0;0m
+[1;34m> ntpdate[0;0m
+[1;34m> dns-clean[0;0m
+[1;34m> pppd-dns[0;0m
+[1;34m> functions.sh[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> rsyslog[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> 0dns-down[0;0m
+[1;34m> 0dns-up[0;0m
+[1;34m> options[0;0m
+[1;34m> nameservice[0;0m
+[1;34m> sbin.dhclient[0;0m
+[1;34m> nsswitch.conf[0;0m
+[1;34m> sbin.dhclient[0;0m
+[1;34m> www-browser[0;0m
+[1;34m> rlogin[0;0m
+[1;34m> rsh[0;0m
+[1;34m> nmap[0;0m
+[1;34m> links[0;0m
+[1;34m> services[0;0m
+[1;34m> rt_protos[0;0m
+[31mTest #5 is failed!
 [0m[31mFile task_6.enc is missed
-[0m[31mFile task_7.enc is missed
+[0mRunning Test # 7 [           check_pass_gen]: [32mPassed
 [0m[31mFile task_8.enc is missed
 [0m[31mFile task_9.enc is missed
 [0m[31mFile task_10.enc is missed
@@ -14,5 +229,5 @@
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [32mPassed
-[0m[96mYour evaluation is finished! You've got 1 from 16 points.
+[0m[96mYour evaluation is finished! You've got 4 from 16 points.
 [0m
