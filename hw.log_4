@@ -1,53 +1,9 @@
 Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test # 2 [               check_sort]: [32mPassed
-[0mRunning Test # 3 [       check_passwd_parse]: [1;35m1,21c1,21[0;0m
-[1;31m< root<---> /root<---> /bin/bash[0;0m
-[1;31m< daemon<---> /usr/sbin<---> /bin/sh[0;0m
-[1;31m< bin<---> /bin<---> /bin/sh[0;0m
-[1;31m< sys<---> /dev<---> /bin/sh[0;0m
-[1;31m< sync<---> /bin<---> /bin/sync[0;0m
-[1;31m< games<---> /usr/games<---> /bin/sh[0;0m
-[1;31m< man<---> /var/cache/man<---> /bin/sh[0;0m
-[1;31m< lp<---> /var/spool/lpd<---> /bin/sh[0;0m
-[1;31m< mail<---> /var/mail<---> /bin/sh[0;0m
-[1;31m< news<---> /var/spool/news<---> /bin/sh[0;0m
-[1;31m< uucp<---> /var/spool/uucp<---> /bin/sh[0;0m
-[1;31m< proxy<---> /bin<---> /bin/sh[0;0m
-[1;31m< www-data<---> /var/www<---> /bin/sh[0;0m
-[1;31m< backup<---> /var/backups<---> /bin/sh[0;0m
-[1;31m< list<---> /var/list<---> /bin/sh[0;0m
-[1;31m< irc<---> /var/run/ircd<---> /bin/sh[0;0m
-[1;31m< gnats<---> /var/lib/gnats<---> /bin/sh[0;0m
-[1;31m< nobody<---> /nonexistent<---> /bin/sh[0;0m
-[1;31m< libuuid<---> /var/lib/libuuid<---> /bin/sh[0;0m
-[1;31m< test<---> /home/test<---> /bin/bash[0;0m
-[1;31m< klop<---> /home/klop<---> /bin/bash[0;0m
-[0;0m---[0;0m
-[1;34m> root <---> /root <---> /bin/bash[0;0m
-[1;34m> daemon <---> /usr/sbin <---> /bin/sh[0;0m
-[1;34m> bin <---> /bin <---> /bin/sh[0;0m
-[1;34m> sys <---> /dev <---> /bin/sh[0;0m
-[1;34m> sync <---> /bin <---> /bin/sync[0;0m
-[1;34m> games <---> /usr/games <---> /bin/sh[0;0m
-[1;34m> man <---> /var/cache/man <---> /bin/sh[0;0m
-[1;34m> lp <---> /var/spool/lpd <---> /bin/sh[0;0m
-[1;34m> mail <---> /var/mail <---> /bin/sh[0;0m
-[1;34m> news <---> /var/spool/news <---> /bin/sh[0;0m
-[1;34m> uucp <---> /var/spool/uucp <---> /bin/sh[0;0m
-[1;34m> proxy <---> /bin <---> /bin/sh[0;0m
-[1;34m> www-data <---> /var/www <---> /bin/sh[0;0m
-[1;34m> backup <---> /var/backups <---> /bin/sh[0;0m
-[1;34m> list <---> /var/list <---> /bin/sh[0;0m
-[1;34m> irc <---> /var/run/ircd <---> /bin/sh[0;0m
-[1;34m> gnats <---> /var/lib/gnats <---> /bin/sh[0;0m
-[1;34m> nobody <---> /nonexistent <---> /bin/sh[0;0m
-[1;34m> libuuid <---> /var/lib/libuuid <---> /bin/sh[0;0m
-[1;34m> test <---> /home/test <---> /bin/bash[0;0m
-[1;34m> klop <---> /home/klop <---> /bin/bash[0;0m
-[31mTest #3 is failed!
+[0mRunning Test # 3 [       check_passwd_parse]: [32mPassed
 [0mRunning Test # 4 [            check_replace]: [32mPassed
 [0mRunning Test # 5 [               check_grep]: [1;35m1c1,35[0;0m
-[1;31m< dhcp[0;0m
+[1;31m< [0;0m
 [0;0m---[0;0m
 [1;34m> S70pppd-dns[0;0m
 [1;34m> S70dns-clean[0;0m
@@ -85,7 +41,19 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [1;34m> services[0;0m
 [1;34m> rt_protos[0;0m
 [31mTest #5 is failed!
-[0m[31mFile task_6.enc is missed
+[0mRunning Test # 6 [         check_substitute]: [1;35m77c77[0;0m
+[1;31m< #EXTRA_GROUPS=777 cdrom floppy audio video plugdev users"[0;0m
+[0;0m---[0;0m
+[1;34m> #EXTRA_GROUPS="dialout cdrom floppy audio video plugdev users"[0;0m
+[1;35m81c81[0;0m
+[1;31m< #ADD_EXTRA_GROUPS=777[0;0m
+[0;0m---[0;0m
+[1;34m> #ADD_EXTRA_GROUPS=1[0;0m
+[1;35m85c85[0;0m
+[1;31m< #NAME_REGEX=777[0;0m
+[0;0m---[0;0m
+[1;34m> #NAME_REGEX="^[a-z][-a-z0-9_]*\$"[0;0m
+[31mTest #6 is failed!
 [0m[31mFile task_7.enc is missed
 [0m[31mFile task_8.enc is missed
 [0m[31mFile task_9.enc is missed
@@ -96,5 +64,5 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [32mPassed
-[0m[96mYour evaluation is finished! You've got 4 from 16 points.
+[0m[96mYour evaluation is finished! You've got 5 from 16 points.
 [0m
