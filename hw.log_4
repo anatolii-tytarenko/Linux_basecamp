@@ -1,12 +1,12 @@
 Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test # 2 [               check_sort]: [1;35m1,7c1,124[0;0m
 [1;31m< total 24K[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop 11 лют 13 10:09 task_2.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop 23 лют 13 10:09 task_1.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop 39 лют 13 10:09 task_4.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop 61 лют 13 10:09 task_7.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop 64 лют 13 10:09 task_3.enc[0;0m
-[1;31m< -rw-rw-r-- 1 klop klop 82 лют 13 10:09 task_5.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 11 лют 13 11:07 task_2.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 23 лют 13 11:07 task_1.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 39 лют 13 11:07 task_4.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 61 лют 13 11:07 task_7.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 64 лют 13 11:07 task_3.enc[0;0m
+[1;31m< -rw-rw-r-- 1 klop klop 82 лют 13 11:07 task_5.enc[0;0m
 [0;0m---[0;0m
 [1;34m> -rwxr-xr-x 1 root    root    913K лют 21  2017 tcpdump[0;0m
 [1;34m> -rwxr-xr-x 1 root    root    520K сер 11  2016 sshd[0;0m
@@ -228,6 +228,9 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #13 [  _check_awk_additional_1]: [31mTest #13 is failed!
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
-[0mRunning Test #16 [    _check_commit_message]: [32mPassed
+[0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
+Vadim Sidorov: Homework #4
+Attempt #2
+[0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 4 from 16 points.
 [0m
