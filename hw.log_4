@@ -1,9 +1,90 @@
 Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test # 2 [               check_sort]: [32mPassed
-[0mRunning Test # 3 [       check_passwd_parse]: [31mYou should use cut in this task
-[0m[31mTest #3 is failed!
-[0m[31mFile task_4.enc is missed
-[0m[31mFile task_5.enc is missed
+[0mRunning Test # 3 [       check_passwd_parse]: [1;35m1,21c1,21[0;0m
+[1;31m< root<---> /root<---> /bin/bash[0;0m
+[1;31m< daemon<---> /usr/sbin<---> /bin/sh[0;0m
+[1;31m< bin<---> /bin<---> /bin/sh[0;0m
+[1;31m< sys<---> /dev<---> /bin/sh[0;0m
+[1;31m< sync<---> /bin<---> /bin/sync[0;0m
+[1;31m< games<---> /usr/games<---> /bin/sh[0;0m
+[1;31m< man<---> /var/cache/man<---> /bin/sh[0;0m
+[1;31m< lp<---> /var/spool/lpd<---> /bin/sh[0;0m
+[1;31m< mail<---> /var/mail<---> /bin/sh[0;0m
+[1;31m< news<---> /var/spool/news<---> /bin/sh[0;0m
+[1;31m< uucp<---> /var/spool/uucp<---> /bin/sh[0;0m
+[1;31m< proxy<---> /bin<---> /bin/sh[0;0m
+[1;31m< www-data<---> /var/www<---> /bin/sh[0;0m
+[1;31m< backup<---> /var/backups<---> /bin/sh[0;0m
+[1;31m< list<---> /var/list<---> /bin/sh[0;0m
+[1;31m< irc<---> /var/run/ircd<---> /bin/sh[0;0m
+[1;31m< gnats<---> /var/lib/gnats<---> /bin/sh[0;0m
+[1;31m< nobody<---> /nonexistent<---> /bin/sh[0;0m
+[1;31m< libuuid<---> /var/lib/libuuid<---> /bin/sh[0;0m
+[1;31m< test<---> /home/test<---> /bin/bash[0;0m
+[1;31m< klop<---> /home/klop<---> /bin/bash[0;0m
+[0;0m---[0;0m
+[1;34m> root <---> /root <---> /bin/bash[0;0m
+[1;34m> daemon <---> /usr/sbin <---> /bin/sh[0;0m
+[1;34m> bin <---> /bin <---> /bin/sh[0;0m
+[1;34m> sys <---> /dev <---> /bin/sh[0;0m
+[1;34m> sync <---> /bin <---> /bin/sync[0;0m
+[1;34m> games <---> /usr/games <---> /bin/sh[0;0m
+[1;34m> man <---> /var/cache/man <---> /bin/sh[0;0m
+[1;34m> lp <---> /var/spool/lpd <---> /bin/sh[0;0m
+[1;34m> mail <---> /var/mail <---> /bin/sh[0;0m
+[1;34m> news <---> /var/spool/news <---> /bin/sh[0;0m
+[1;34m> uucp <---> /var/spool/uucp <---> /bin/sh[0;0m
+[1;34m> proxy <---> /bin <---> /bin/sh[0;0m
+[1;34m> www-data <---> /var/www <---> /bin/sh[0;0m
+[1;34m> backup <---> /var/backups <---> /bin/sh[0;0m
+[1;34m> list <---> /var/list <---> /bin/sh[0;0m
+[1;34m> irc <---> /var/run/ircd <---> /bin/sh[0;0m
+[1;34m> gnats <---> /var/lib/gnats <---> /bin/sh[0;0m
+[1;34m> nobody <---> /nonexistent <---> /bin/sh[0;0m
+[1;34m> libuuid <---> /var/lib/libuuid <---> /bin/sh[0;0m
+[1;34m> test <---> /home/test <---> /bin/bash[0;0m
+[1;34m> klop <---> /home/klop <---> /bin/bash[0;0m
+[31mTest #3 is failed!
+[0mRunning Test # 4 [            check_replace]: [32mPassed
+[0mRunning Test # 5 [               check_grep]: [1;35m1c1,35[0;0m
+[1;31m< dhcp[0;0m
+[0;0m---[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> resolvconf[0;0m
+[1;34m> interfaces[0;0m
+[1;34m> debug[0;0m
+[1;34m> resolvconf[0;0m
+[1;34m> dhclient.conf[0;0m
+[1;34m> debug[0;0m
+[1;34m> ntpdate[0;0m
+[1;34m> dns-clean[0;0m
+[1;34m> pppd-dns[0;0m
+[1;34m> functions.sh[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> rsyslog[0;0m
+[1;34m> S70pppd-dns[0;0m
+[1;34m> S70dns-clean[0;0m
+[1;34m> 0dns-down[0;0m
+[1;34m> 0dns-up[0;0m
+[1;34m> options[0;0m
+[1;34m> nameservice[0;0m
+[1;34m> sbin.dhclient[0;0m
+[1;34m> nsswitch.conf[0;0m
+[1;34m> sbin.dhclient[0;0m
+[1;34m> www-browser[0;0m
+[1;34m> rlogin[0;0m
+[1;34m> rsh[0;0m
+[1;34m> nmap[0;0m
+[1;34m> links[0;0m
+[1;34m> services[0;0m
+[1;34m> rt_protos[0;0m
+[31mTest #5 is failed!
 [0m[31mFile task_6.enc is missed
 [0m[31mFile task_7.enc is missed
 [0m[31mFile task_8.enc is missed
@@ -15,5 +96,5 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [32mPassed
-[0m[96mYour evaluation is finished! You've got 3 from 16 points.
+[0m[96mYour evaluation is finished! You've got 4 from 16 points.
 [0m
