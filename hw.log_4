@@ -66,27 +66,11 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [1;34m> $ModLoad imuxsock # provides support for local system logging[0;0m
 [1;34m> $ModLoad imklog   # provides kernel logging support (previously done by rklogd)[0;0m
 [31mTest #8 is failed!
-[0mRunning Test # 9 [            check_history]: [31mError with number as an argument
-[0m[1;35m0a1,14[0;0m
-[1;34m> exitt[0;0m
-[1;34m> exit[0;0m
-[1;34m> cd [0;0m
-[1;34m> cd basecamp/[0;0m
-[1;34m> vim check_hw_daemon.sh [0;0m
-[1;34m> ps aux | grep check[0;0m
-[1;34m> git branch [0;0m
-[1;34m> git status[0;0m
-[1;34m> git checkout HW_4/results[0;0m
-[1;34m> git checkout hw.log_4[0;0m
-[1;34m> vim check_4th_hw.sh [0;0m
-[1;34m> пше ик[0;0m
-[1;34m> git branch[0;0m
-[1;34m> git checkout anatolii.tytarenko [0;0m
-[31mTest #9 is failed!
+[0mRunning Test # 9 [            check_history]: [32mPassed
 [0mRunning Test #10 [                check_ckl]: [1;35m1c1[0;0m
 [1;31m< [0;0m
 [0;0m---[0;0m
-[1;34m> there are several lines with broken layout[0;0m
+[1;34m> this task should be really easy[0;0m
 [31mTest #10 is failed!
 [0mRunning Test #11 [       check_sorted_files]: [1;35m1,4d0[0;0m
 [1;31m< sshd 531776[0;0m
@@ -106,7 +90,7 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Nikolay Biryukov: Homework #4
-Attempt #4
+Attempt #5
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 6 from 16 points.
+[0m[96mYour evaluation is finished! You've got 7 from 16 points.
 [0m
