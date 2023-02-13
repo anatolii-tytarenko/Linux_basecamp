@@ -1,122 +1,9 @@
 Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test # 2 [               check_sort]: [32mPassed
 [0mRunning Test # 3 [       check_passwd_parse]: [32mPassed
-[0mRunning Test # 4 [            check_replace]: [1;35m1c1[0;0m
-[1;31m< # #etc#adduser.conf# #adduser# configuration. # See adduser#8# and adduser.conf#5# for full documentation.  # The DSHELL variable specifies the default login shell on your # system. DSHELL##bin#bash  # The DHOME variable specifies the directory containing users# home # directories. DHOME##home  # If GROUPHOMES is #yes#, then the home directories will be created as # #home#groupname#user. GROUPHOMES#no  # If LETTERHOMES is #yes#, then the created home directories will have # an extra directory # the first letter of the user name. For example# # #home#u#user. LETTERHOMES#no  # The SKEL variable specifies the directory containing #skeletal# user # files# in other words, files such as a sample .profile that will be # copied to the new user#s home directory when it is created. SKEL##etc#skel  # FIRST#SYSTEM#[GU]ID to LAST#SYSTEM#[GU]ID inclusive is the range for UIDs # for dynamically allocated administrative and system accounts#groups. # Please note that system software, such as the users allocated by the base#passwd # package, may assume that UIDs less than 100 are unallocated. FIRST#SYSTEM#UID#100 LAST#SYSTEM#UID#999  FIRST#SYSTEM#GID#100 LAST#SYSTEM#GID#999  # FIRST#[GU]ID to LAST#[GU]ID inclusive is the range of UIDs of dynamically # allocated user accounts#groups. FIRST#UID#1000 LAST#UID#29999  FIRST#GID#1000 LAST#GID#29999  # The USERGROUPS variable can be either #yes# or #no#.  If #yes# each # created user will be given their own group to use as a default.  If # #no#, each created user will be placed in the group whose gid is # USERS#GID #see below#. USERGROUPS#yes  # If USERGROUPS is #no#, then USERS#GID should be the GID of the group # #users# #or the equivalent group# on your system. USERS#GID#100  # If DIR#MODE is set, directories will be created with the specified # mode. Otherwise the default mode 0755 will be used. DIR#MODE#0755  # If SETGID#HOME is #yes# home directories for users with their own # group the setgid bit will be set. This was the default for # versions ## 3.13 of adduser. Because it has some bad side effects we # no longer do this per default. If you want it nevertheless you can # still set it here. SETGID#HOME#no  # If QUOTAUSER is set, a default quota will be set from that user with # #edquota #p QUOTAUSER newuser# QUOTAUSER###  # If SKEL#IGNORE#REGEX is set, adduser will ignore files matching this # regular expression when creating a new home directory SKEL#IGNORE#REGEX##dpkg##old#new#dist#save##  # Set this if you want the ##add#extra#groups option to adduser to add # new users to other groups. # This is the list of groups that new non#system users will be added to # Default# #EXTRA#GROUPS##dialout cdrom floppy audio video plugdev users#  # If ADD#EXTRA#GROUPS is set to something non#zero, the EXTRA#GROUPS # option above will be default behavior for adding new, non#system users #ADD#EXTRA#GROUPS#1   # check user and group names also against this regular expression. #NAME#REGEX###[a#z][#a#z0#9#]#### [0;0m
-[0;0m---[0;0m
-[1;34m> # #etc#adduser.conf# #adduser# configuration. # See adduser#8# and adduser.conf#5# for full documentation.  # The DSHELL variable specifies the default login shell on your # system. DSHELL##bin#bash  # The DHOME variable specifies the directory containing users# home # directories. DHOME##home  # If GROUPHOMES is #yes#, then the home directories will be created as # #home#groupname#user. GROUPHOMES#no  # If LETTERHOMES is #yes#, then the created home directories will have # an extra directory # the first letter of the user name. For example# # #home#u#user. LETTERHOMES#no  # The SKEL variable specifies the directory containing #skeletal# user # files# in other words, files such as a sample .profile that will be # copied to the new user#s home directory when it is created. SKEL##etc#skel  # FIRST#SYSTEM##GU#ID to LAST#SYSTEM##GU#ID inclusive is the range for UIDs # for dynamically allocated administrative and system accounts#groups. # Please note that system software, such as the users allocated by the base#passwd # package, may assume that UIDs less than 100 are unallocated. FIRST#SYSTEM#UID#100 LAST#SYSTEM#UID#999  FIRST#SYSTEM#GID#100 LAST#SYSTEM#GID#999  # FIRST##GU#ID to LAST##GU#ID inclusive is the range of UIDs of dynamically # allocated user accounts#groups. FIRST#UID#1000 LAST#UID#29999  FIRST#GID#1000 LAST#GID#29999  # The USERGROUPS variable can be either #yes# or #no#.  If #yes# each # created user will be given their own group to use as a default.  If # #no#, each created user will be placed in the group whose gid is # USERS#GID #see below#. USERGROUPS#yes  # If USERGROUPS is #no#, then USERS#GID should be the GID of the group # #users# #or the equivalent group# on your system. USERS#GID#100  # If DIR#MODE is set, directories will be created with the specified # mode. Otherwise the default mode 0755 will be used. DIR#MODE#0755  # If SETGID#HOME is #yes# home directories for users with their own # group the setgid bit will be set. This was the default for # versions ## 3.13 of adduser. Because it has some bad side effects we # no longer do this per default. If you want it nevertheless you can # still set it here. SETGID#HOME#no  # If QUOTAUSER is set, a default quota will be set from that user with # #edquota #p QUOTAUSER newuser# QUOTAUSER###  # If SKEL#IGNORE#REGEX is set, adduser will ignore files matching this # regular expression when creating a new home directory SKEL#IGNORE#REGEX##dpkg##old#new#dist#save##  # Set this if you want the ##add#extra#groups option to adduser to add # new users to other groups. # This is the list of groups that new non#system users will be added to # Default# #EXTRA#GROUPS##dialout cdrom floppy audio video plugdev users#  # If ADD#EXTRA#GROUPS is set to something non#zero, the EXTRA#GROUPS # option above will be default behavior for adding new, non#system users #ADD#EXTRA#GROUPS#1   # check user and group names also against this regular expression. #NAME#REGEX####a#z###a#z0#9###### [0;0m
-[31mTest #4 is failed!
-[0mRunning Test # 5 [               check_grep]: [1;35m1d0[0;0m
-[1;31m< ssh_config[0;0m
-[1;35m4d2[0;0m
-[1;31m< 000resolvconf[0;0m
-[1;35m7d4[0;0m
-[1;31m< ld.so.cache[0;0m
-[1;35m16d12[0;0m
-[1;31m< ltrace.conf[0;0m
-[1;35m27,28d22[0;0m
-[1;31m< 0000usepeerdns[0;0m
-[1;31m< 000resolvconf[0;0m
-[1;35m31d24[0;0m
-[1;31m< mdns[0;0m
-[1;35m36,38d28[0;0m
-[1;31m< insserv.conf[0;0m
-[1;31m< interface-order[0;0m
-[1;31m< dnscache[0;0m
-[1;35m40,41d29[0;0m
-[1;31m< aptitude[0;0m
-[1;31m< pico[0;0m
-[1;35m44,45d31[0;0m
-[1;31m< editor[0;0m
-[1;31m< ssh[0;0m
-[1;35m48,64d33[0;0m
-[1;31m< dsniff[0;0m
-[1;31m< VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem[0;0m
-[1;31m< DigiCert_Assured_ID_Root_CA.pem[0;0m
-[1;31m< ca-certificates.crt[0;0m
-[1;31m< Certum_Trusted_Network_CA.pem[0;0m
-[1;31m< 48bec511.0[0;0m
-[1;31m< 5e4e69e7.0[0;0m
-[1;31m< f3377b1b.0[0;0m
-[1;31m< 95aff9e3.0[0;0m
-[1;31m< 69105f4f.0[0;0m
-[1;31m< TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem[0;0m
-[1;31m< Security_Communication_Root_CA.pem[0;0m
-[1;31m< 0d5a4e1c.0[0;0m
-[1;31m< 7992b8bb.0[0;0m
-[1;31m< b1159c4c.0[0;0m
-[1;31m< a3896b44.0[0;0m
-[1;31m< 7d0b38bd.0[0;0m
-[31mTest #5 is failed!
-[0mRunning Test # 6 [         check_substitute]: [1;35m6c6[0;0m
-[1;31m< DSHELL=/bin/bash[0;0m
-[0;0m---[0;0m
-[1;34m> DSHELL=777[0;0m
-[1;35m10c10[0;0m
-[1;31m< DHOME=/home[0;0m
-[0;0m---[0;0m
-[1;34m> DHOME=777[0;0m
-[1;35m14c14[0;0m
-[1;31m< GROUPHOMES=no[0;0m
-[0;0m---[0;0m
-[1;34m> GROUPHOMES=777[0;0m
-[1;35m19c19[0;0m
-[1;31m< LETTERHOMES=no[0;0m
-[0;0m---[0;0m
-[1;34m> LETTERHOMES=777[0;0m
-[1;35m24c24[0;0m
-[1;31m< SKEL=/etc/skel[0;0m
-[0;0m---[0;0m
-[1;34m> SKEL=777[0;0m
-[1;35m30,31c30,31[0;0m
-[1;31m< FIRST_SYSTEM_UID=100[0;0m
-[1;31m< LAST_SYSTEM_UID=999[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_SYSTEM_UID=777[0;0m
-[1;34m> LAST_SYSTEM_UID=777[0;0m
-[1;35m33,34c33,34[0;0m
-[1;31m< FIRST_SYSTEM_GID=100[0;0m
-[1;31m< LAST_SYSTEM_GID=999[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_SYSTEM_GID=777[0;0m
-[1;34m> LAST_SYSTEM_GID=777[0;0m
-[1;35m38,39c38,39[0;0m
-[1;31m< FIRST_UID=1000[0;0m
-[1;31m< LAST_UID=29999[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_UID=777[0;0m
-[1;34m> LAST_UID=777[0;0m
-[1;35m41,42c41,42[0;0m
-[1;31m< FIRST_GID=1000[0;0m
-[1;31m< LAST_GID=29999[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_GID=777[0;0m
-[1;34m> LAST_GID=777[0;0m
-[1;35m48c48[0;0m
-[1;31m< USERGROUPS=yes[0;0m
-[0;0m---[0;0m
-[1;34m> USERGROUPS=777[0;0m
-[1;35m52c52[0;0m
-[1;31m< USERS_GID=100[0;0m
-[0;0m---[0;0m
-[1;34m> USERS_GID=777[0;0m
-[1;35m56c56[0;0m
-[1;31m< DIR_MODE=0755[0;0m
-[0;0m---[0;0m
-[1;34m> DIR_MODE=777[0;0m
-[1;35m63c63[0;0m
-[1;31m< SETGID_HOME=no[0;0m
-[0;0m---[0;0m
-[1;34m> SETGID_HOME=777[0;0m
-[1;35m67c67[0;0m
-[1;31m< QUOTAUSER=""[0;0m
-[0;0m---[0;0m
-[1;34m> QUOTAUSER=777[0;0m
-[1;35m71c71[0;0m
-[1;31m< SKEL_IGNORE_REGEX="dpkg-(old|new|dist|save)"[0;0m
-[0;0m---[0;0m
-[1;34m> SKEL_IGNORE_REGEX=777[0;0m
-[31mTest #6 is failed!
+[0mRunning Test # 4 [            check_replace]: [32mPassed
+[0mRunning Test # 5 [               check_grep]: [32mPassed
+[0mRunning Test # 6 [         check_substitute]: [32mPassed
 [0mRunning Test # 7 [           check_pass_gen]: [32mPassed
 [0mRunning Test # 8 [      check_del_commented]: [32mPassed
 [0m[31mFile task_9.enc is missed
@@ -127,5 +14,5 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [32mPassed
-[0m[96mYour evaluation is finished! You've got 6 from 16 points.
+[0m[96mYour evaluation is finished! You've got 9 from 16 points.
 [0m
