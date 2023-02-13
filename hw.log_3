@@ -18,7 +18,7 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0m[31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Nikolay Biryukov: Homework #3
-Attempt #5
+Attempt #6
 [0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 13 from 16 points.
 [0m
