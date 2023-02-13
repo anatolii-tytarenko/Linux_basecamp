@@ -90,7 +90,7 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Nikolay Biryukov: Homework #4
-Attempt #5
+Attempt #6
 [0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 7 from 16 points.
 [0m
