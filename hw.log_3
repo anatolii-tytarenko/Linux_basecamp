@@ -1,8 +1,7 @@
-Running Test # 1 [           check_self_pid]: [31mTest #1 is failed!
-[0mRunning Test # 2 [ check_background_process]: [31mUse & to run command in the background
-[0m[31mTest #2 is failed!
+Running Test # 1 [           check_self_pid]: [32mPassed
+[0mRunning Test # 2 [ check_background_process]: [32mPassed
 [0mRunning Test # 3 [        check_stop_signal]: [31mTest #3 is failed!
-[0mRunning Test # 4 [        check_kill_signal]: [32mPassed
+[0mRunning Test # 4 [        check_kill_signal]: [31mTest #4 is failed!
 [0mRunning Test # 5 [            check_ps_info]: [32mPassed
 [0mRunning Test # 6 [              check_alias]: [31mTest #6 is failed!
 [0mRunning Test # 7 [               check_link]: [31mNew symlink is absent or it links to wrong target
@@ -23,7 +22,7 @@ Running Test # 1 [           check_self_pid]: [31mTest #1 is failed!
 [0m[31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Vadym Gerasimov: Homework #3
-Attempt #1
+Attempt #2
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 5 from 16 points.
+[0m[96mYour evaluation is finished! You've got 6 from 16 points.
 [0m
