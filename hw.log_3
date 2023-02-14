@@ -9,16 +9,13 @@ Running Test # 1 [           check_self_pid]: [32mPassed
 [0mRunning Test # 9 [           check_variable]: [32mPassed
 [0mRunning Test #10 [             check_script]: [32mPassed
 [0mRunning Test #11 [       check_file_creator]: [32mPassed
-[0mRunning Test #12 [   check_2nd_script_usage]: [31mWrong behavior of help command
-[0m[31mTest #12 is failed!
-[0mRunning Test #13 [ _check_2nd_script_create]: [31mFile wasn't created or it has wrong access rules
-[0m[31mTest #13 is failed!
+[0mRunning Test #12 [   check_2nd_script_usage]: [32mPassed
+[0mRunning Test #13 [ _check_2nd_script_create]: [32mPassed
 [0mRunning Test #14 [ _check_2nd_script_remove]: [32mPassed
-[0mRunning Test #15 [   _check_2nd_script_info]: [31mWrong exit status or message while checking unexisting file
-[0m[31mTest #15 is failed!
+[0mRunning Test #15 [   _check_2nd_script_info]: [32mPassed
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Nikolay Biryukov: Homework #3
-Attempt #6
+Attempt #7
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 13 from 16 points.
+[0m[96mYour evaluation is finished! You've got 16 from 16 points.
 [0m
