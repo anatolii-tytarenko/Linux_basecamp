@@ -43,101 +43,14 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [1;35m5a35[0;0m
 [1;34m> rt_protos[0;0m
 [31mTest #5 is failed!
-[0mRunning Test # 6 [         check_substitute]: [1;35m6c6[0;0m
-[1;31m< DSHEL=777[0;0m
-[0;0m---[0;0m
-[1;34m> DSHELL=777[0;0m
-[1;35m10c10[0;0m
-[1;31m< DHOM=777[0;0m
-[0;0m---[0;0m
-[1;34m> DHOME=777[0;0m
-[1;35m14c14[0;0m
-[1;31m< GROUPHOME=777[0;0m
-[0;0m---[0;0m
-[1;34m> GROUPHOMES=777[0;0m
-[1;35m19c19[0;0m
-[1;31m< LETTERHOME=777[0;0m
-[0;0m---[0;0m
-[1;34m> LETTERHOMES=777[0;0m
-[1;35m24c24[0;0m
-[1;31m< SKE=777[0;0m
-[0;0m---[0;0m
-[1;34m> SKEL=777[0;0m
-[1;35m30,31c30,31[0;0m
-[1;31m< FIRST_SYSTEM_UI=777[0;0m
-[1;31m< LAST_SYSTEM_UI=777[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_SYSTEM_UID=777[0;0m
-[1;34m> LAST_SYSTEM_UID=777[0;0m
-[1;35m33,34c33,34[0;0m
-[1;31m< FIRST_SYSTEM_GI=777[0;0m
-[1;31m< LAST_SYSTEM_GI=777[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_SYSTEM_GID=777[0;0m
-[1;34m> LAST_SYSTEM_GID=777[0;0m
-[1;35m38,39c38,39[0;0m
-[1;31m< FIRST_UI=777[0;0m
-[1;31m< LAST_UI=777[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_UID=777[0;0m
-[1;34m> LAST_UID=777[0;0m
-[1;35m41,42c41,42[0;0m
-[1;31m< FIRST_GI=777[0;0m
-[1;31m< LAST_GI=777[0;0m
-[0;0m---[0;0m
-[1;34m> FIRST_GID=777[0;0m
-[1;34m> LAST_GID=777[0;0m
-[1;35m48c48[0;0m
-[1;31m< USERGROUP=777[0;0m
-[0;0m---[0;0m
-[1;34m> USERGROUPS=777[0;0m
-[1;35m52c52[0;0m
-[1;31m< USERS_GI=777[0;0m
-[0;0m---[0;0m
-[1;34m> USERS_GID=777[0;0m
-[1;35m56c56[0;0m
-[1;31m< DIR_MOD=777[0;0m
-[0;0m---[0;0m
-[1;34m> DIR_MODE=777[0;0m
-[1;35m63c63[0;0m
-[1;31m< SETGID_HOM=777[0;0m
-[0;0m---[0;0m
-[1;34m> SETGID_HOME=777[0;0m
-[1;35m67c67[0;0m
-[1;31m< QUOTAUSE=777[0;0m
-[0;0m---[0;0m
-[1;34m> QUOTAUSER=777[0;0m
-[1;35m71c71[0;0m
-[1;31m< SKEL_IGNORE_REGE=777[0;0m
-[0;0m---[0;0m
-[1;34m> SKEL_IGNORE_REGEX=777[0;0m
-[1;35m77c77[0;0m
-[1;31m< #EXTRA_GROUP=777[0;0m
-[0;0m---[0;0m
-[1;34m> #EXTRA_GROUPS="dialout cdrom floppy audio video plugdev users"[0;0m
-[1;35m81c81[0;0m
-[1;31m< #ADD_EXTRA_GROUP=777[0;0m
-[0;0m---[0;0m
-[1;34m> #ADD_EXTRA_GROUPS=1[0;0m
-[1;35m85c85[0;0m
-[1;31m< #NAME_REGE=777[0;0m
-[0;0m---[0;0m
-[1;34m> #NAME_REGEX="^[a-z][-a-z0-9_]*\$"[0;0m
-[31mTest #6 is failed!
+[0mRunning Test # 6 [         check_substitute]: [32mPassed
 [0mRunning Test # 7 [           check_pass_gen]: [32mPassed
-[0mRunning Test # 8 [      check_del_commented]: [31mError while reading from stdin
-[0m[1;35m1,2c1,2[0;0m
-[1;31m< $ModLoad imuxsock [0;0m
-[1;31m< $ModLoad imklog   [0;0m
-[0;0m---[0;0m
-[1;34m> $ModLoad imuxsock # provides support for local system logging[0;0m
-[1;34m> $ModLoad imklog   # provides kernel logging support (previously done by rklogd)[0;0m
-[31mTest #8 is failed!
+[0mRunning Test # 8 [      check_del_commented]: [32mPassed
 [0mRunning Test # 9 [            check_history]: [32mPassed
 [0mRunning Test #10 [                check_ckl]: [1;35m1c1[0;0m
 [1;31m< [0;0m
 [0;0m---[0;0m
-[1;34m> this task should be really easy[0;0m
+[1;34m> try to use sed with -y command[0;0m
 [31mTest #10 is failed!
 [0mRunning Test #11 [       check_sorted_files]: [32mPassed
 [0m[31mFile task_12.enc is missed
@@ -146,7 +59,7 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Nikolay Biryukov: Homework #4
-Attempt #8
+Attempt #9
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 8 from 16 points.
+[0m[96mYour evaluation is finished! You've got 10 from 16 points.
 [0m
