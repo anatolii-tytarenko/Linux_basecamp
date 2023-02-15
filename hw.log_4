@@ -43,168 +43,110 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [1;35m5a35[0;0m
 [1;34m> rt_protos[0;0m
 [31mTest #5 is failed!
-[0mRunning Test # 6 [         check_substitute]: [1;35m1,2c1,85[0;0m
-[1;31m< #[0;0m
-[1;31m< /etc/adduser.conf:[0;0m
+[0mRunning Test # 6 [         check_substitute]: [1;35m6c6[0;0m
+[1;31m< DSHEL=777[0;0m
 [0;0m---[0;0m
-[1;34m> # /etc/adduser.conf: `adduser' configuration.[0;0m
-[1;34m> # See adduser(8) and adduser.conf(5) for full documentation.[0;0m
-[1;34m> [0;0m
-[1;34m> # The DSHELL variable specifies the default login shell on your[0;0m
-[1;34m> # system.[0;0m
 [1;34m> DSHELL=777[0;0m
-[1;34m> [0;0m
-[1;34m> # The DHOME variable specifies the directory containing users' home[0;0m
-[1;34m> # directories.[0;0m
+[1;35m10c10[0;0m
+[1;31m< DHOM=777[0;0m
+[0;0m---[0;0m
 [1;34m> DHOME=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If GROUPHOMES is "yes", then the home directories will be created as[0;0m
-[1;34m> # /home/groupname/user.[0;0m
+[1;35m14c14[0;0m
+[1;31m< GROUPHOME=777[0;0m
+[0;0m---[0;0m
 [1;34m> GROUPHOMES=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If LETTERHOMES is "yes", then the created home directories will have[0;0m
-[1;34m> # an extra directory - the first letter of the user name. For example:[0;0m
-[1;34m> # /home/u/user.[0;0m
+[1;35m19c19[0;0m
+[1;31m< LETTERHOME=777[0;0m
+[0;0m---[0;0m
 [1;34m> LETTERHOMES=777[0;0m
-[1;34m> [0;0m
-[1;34m> # The SKEL variable specifies the directory containing "skeletal" user[0;0m
-[1;34m> # files; in other words, files such as a sample .profile that will be[0;0m
-[1;34m> # copied to the new user's home directory when it is created.[0;0m
+[1;35m24c24[0;0m
+[1;31m< SKE=777[0;0m
+[0;0m---[0;0m
 [1;34m> SKEL=777[0;0m
-[1;34m> [0;0m
-[1;34m> # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs[0;0m
-[1;34m> # for dynamically allocated administrative and system accounts/groups.[0;0m
-[1;34m> # Please note that system software, such as the users allocated by the base-passwd[0;0m
-[1;34m> # package, may assume that UIDs less than 100 are unallocated.[0;0m
+[1;35m30,31c30,31[0;0m
+[1;31m< FIRST_SYSTEM_UI=777[0;0m
+[1;31m< LAST_SYSTEM_UI=777[0;0m
+[0;0m---[0;0m
 [1;34m> FIRST_SYSTEM_UID=777[0;0m
 [1;34m> LAST_SYSTEM_UID=777[0;0m
-[1;34m> [0;0m
+[1;35m33,34c33,34[0;0m
+[1;31m< FIRST_SYSTEM_GI=777[0;0m
+[1;31m< LAST_SYSTEM_GI=777[0;0m
+[0;0m---[0;0m
 [1;34m> FIRST_SYSTEM_GID=777[0;0m
 [1;34m> LAST_SYSTEM_GID=777[0;0m
-[1;34m> [0;0m
-[1;34m> # FIRST_[GU]ID to LAST_[GU]ID inclusive is the range of UIDs of dynamically[0;0m
-[1;34m> # allocated user accounts/groups.[0;0m
+[1;35m38,39c38,39[0;0m
+[1;31m< FIRST_UI=777[0;0m
+[1;31m< LAST_UI=777[0;0m
+[0;0m---[0;0m
 [1;34m> FIRST_UID=777[0;0m
 [1;34m> LAST_UID=777[0;0m
-[1;34m> [0;0m
+[1;35m41,42c41,42[0;0m
+[1;31m< FIRST_GI=777[0;0m
+[1;31m< LAST_GI=777[0;0m
+[0;0m---[0;0m
 [1;34m> FIRST_GID=777[0;0m
 [1;34m> LAST_GID=777[0;0m
-[1;34m> [0;0m
-[1;34m> # The USERGROUPS variable can be either "yes" or "no".  If "yes" each[0;0m
-[1;34m> # created user will be given their own group to use as a default.  If[0;0m
-[1;34m> # "no", each created user will be placed in the group whose gid is[0;0m
-[1;34m> # USERS_GID (see below).[0;0m
+[1;35m48c48[0;0m
+[1;31m< USERGROUP=777[0;0m
+[0;0m---[0;0m
 [1;34m> USERGROUPS=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If USERGROUPS is "no", then USERS_GID should be the GID of the group[0;0m
-[1;34m> # `users' (or the equivalent group) on your system.[0;0m
+[1;35m52c52[0;0m
+[1;31m< USERS_GI=777[0;0m
+[0;0m---[0;0m
 [1;34m> USERS_GID=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If DIR_MODE is set, directories will be created with the specified[0;0m
-[1;34m> # mode. Otherwise the default mode 0755 will be used.[0;0m
+[1;35m56c56[0;0m
+[1;31m< DIR_MOD=777[0;0m
+[0;0m---[0;0m
 [1;34m> DIR_MODE=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If SETGID_HOME is "yes" home directories for users with their own[0;0m
-[1;34m> # group the setgid bit will be set. This was the default for[0;0m
-[1;34m> # versions << 3.13 of adduser. Because it has some bad side effects we[0;0m
-[1;34m> # no longer do this per default. If you want it nevertheless you can[0;0m
-[1;34m> # still set it here.[0;0m
+[1;35m63c63[0;0m
+[1;31m< SETGID_HOM=777[0;0m
+[0;0m---[0;0m
 [1;34m> SETGID_HOME=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If QUOTAUSER is set, a default quota will be set from that user with[0;0m
-[1;34m> # `edquota -p QUOTAUSER newuser'[0;0m
+[1;35m67c67[0;0m
+[1;31m< QUOTAUSE=777[0;0m
+[0;0m---[0;0m
 [1;34m> QUOTAUSER=777[0;0m
-[1;34m> [0;0m
-[1;34m> # If SKEL_IGNORE_REGEX is set, adduser will ignore files matching this[0;0m
-[1;34m> # regular expression when creating a new home directory[0;0m
+[1;35m71c71[0;0m
+[1;31m< SKEL_IGNORE_REGE=777[0;0m
+[0;0m---[0;0m
 [1;34m> SKEL_IGNORE_REGEX=777[0;0m
-[1;34m> [0;0m
-[1;34m> # Set this if you want the --add_extra_groups option to adduser to add[0;0m
-[1;34m> # new users to other groups.[0;0m
-[1;34m> # This is the list of groups that new non-system users will be added to[0;0m
-[1;34m> # Default:[0;0m
+[1;35m77c77[0;0m
+[1;31m< #EXTRA_GROUP=777[0;0m
+[0;0m---[0;0m
 [1;34m> #EXTRA_GROUPS="dialout cdrom floppy audio video plugdev users"[0;0m
-[1;34m> [0;0m
-[1;34m> # If ADD_EXTRA_GROUPS is set to something non-zero, the EXTRA_GROUPS[0;0m
-[1;34m> # option above will be default behavior for adding new, non-system users[0;0m
+[1;35m81c81[0;0m
+[1;31m< #ADD_EXTRA_GROUP=777[0;0m
+[0;0m---[0;0m
 [1;34m> #ADD_EXTRA_GROUPS=1[0;0m
-[1;34m> [0;0m
-[1;34m> [0;0m
-[1;34m> # check user and group names also against this regular expression.[0;0m
+[1;35m85c85[0;0m
+[1;31m< #NAME_REGE=777[0;0m
+[0;0m---[0;0m
 [1;34m> #NAME_REGEX="^[a-z][-a-z0-9_]*\$"[0;0m
 [31mTest #6 is failed!
 [0mRunning Test # 7 [           check_pass_gen]: [32mPassed
 [0mRunning Test # 8 [      check_del_commented]: [31mError while reading from stdin
-[0m[1;35m1,28c1,14[0;0m
-[1;31m< $ModLoad[0;0m
-[1;31m< imuxsock[0;0m
-[1;31m< $ModLoad[0;0m
-[1;31m< imklog[0;0m
-[1;31m< $KLogPermitNonKernelFacility[0;0m
-[1;31m< on[0;0m
-[1;31m< $ActionFileDefaultTemplate[0;0m
-[1;31m< RSYSLOG_TraditionalFileFormat[0;0m
-[1;31m< $RepeatedMsgReduction[0;0m
-[1;31m< on[0;0m
-[1;31m< $FileOwner[0;0m
-[1;31m< syslog[0;0m
-[1;31m< $FileGroup[0;0m
-[1;31m< adm[0;0m
-[1;31m< $FileCreateMode[0;0m
-[1;31m< 0640[0;0m
-[1;31m< $DirCreateMode[0;0m
-[1;31m< 0755[0;0m
-[1;31m< $Umask[0;0m
-[1;31m< 0022[0;0m
-[1;31m< $PrivDropToUser[0;0m
-[1;31m< syslog[0;0m
-[1;31m< $PrivDropToGroup[0;0m
-[1;31m< syslog[0;0m
-[1;31m< $WorkDirectory[0;0m
-[1;31m< /var/spool/rsyslog[0;0m
-[1;31m< $IncludeConfig[0;0m
-[1;31m< /etc/rsyslog.d/*.conf[0;0m
+[0m[1;35m1,2c1,2[0;0m
+[1;31m< $ModLoad imuxsock [0;0m
+[1;31m< $ModLoad imklog   [0;0m
 [0;0m---[0;0m
 [1;34m> $ModLoad imuxsock # provides support for local system logging[0;0m
 [1;34m> $ModLoad imklog   # provides kernel logging support (previously done by rklogd)[0;0m
-[1;34m> $KLogPermitNonKernelFacility on[0;0m
-[1;34m> $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat[0;0m
-[1;34m> $RepeatedMsgReduction on[0;0m
-[1;34m> $FileOwner syslog[0;0m
-[1;34m> $FileGroup adm[0;0m
-[1;34m> $FileCreateMode 0640[0;0m
-[1;34m> $DirCreateMode 0755[0;0m
-[1;34m> $Umask 0022[0;0m
-[1;34m> $PrivDropToUser syslog[0;0m
-[1;34m> $PrivDropToGroup syslog[0;0m
-[1;34m> $WorkDirectory /var/spool/rsyslog[0;0m
-[1;34m> $IncludeConfig /etc/rsyslog.d/*.conf[0;0m
 [31mTest #8 is failed!
 [0mRunning Test # 9 [            check_history]: [32mPassed
 [0mRunning Test #10 [                check_ckl]: [1;35m1c1[0;0m
 [1;31m< [0;0m
 [0;0m---[0;0m
-[1;34m> there are several lines with broken layout[0;0m
+[1;34m> this task should be really easy[0;0m
 [31mTest #10 is failed!
-[0mRunning Test #11 [       check_sorted_files]: [1;35m1,4d0[0;0m
-[1;31m< sshd 531776[0;0m
-[1;31m< rsyslogd 388220[0;0m
-[1;31m< grub-probe 358320[0;0m
-[1;31m< pppd 301904[0;0m
-[1;35m5a2,6[0;0m
-[1;34m> pppd 301904[0;0m
-[1;34m> grub-probe 358320[0;0m
-[1;34m> rsyslogd 388220[0;0m
-[1;34m> sshd 531776[0;0m
-[1;34m> tcpdump 934088[0;0m
-[31mTest #11 is failed!
+[0mRunning Test #11 [       check_sorted_files]: [32mPassed
 [0m[31mFile task_12.enc is missed
 [0mRunning Test #13 [  _check_awk_additional_1]: [31mTest #13 is failed!
 [0mRunning Test #14 [  _check_awk_additional_2]: [31mTest #14 is failed!
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Nikolay Biryukov: Homework #4
-Attempt #7
+Attempt #8
 [0m[32mPassed
-[0m[96mYour evaluation is finished! You've got 7 from 16 points.
+[0m[96mYour evaluation is finished! You've got 8 from 16 points.
 [0m
