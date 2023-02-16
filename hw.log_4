@@ -5,8 +5,40 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0m[31mFile task_5.enc is missed
 [0mRunning Test # 6 [         check_substitute]: [32mPassed
 [0mRunning Test # 7 [           check_pass_gen]: [32mPassed
-[0m[31mFile task_8.enc is missed
-[0m[31mFile task_9.enc is missed
+[0mRunning Test # 8 [      check_del_commented]: [31mError while reading from stdin
+[0m[1;35m1c1,14[0;0m
+[1;31m< [0;0m
+[0;0m---[0;0m
+[1;34m> $ModLoad imuxsock # provides support for local system logging[0;0m
+[1;34m> $ModLoad imklog   # provides kernel logging support (previously done by rklogd)[0;0m
+[1;34m> $KLogPermitNonKernelFacility on[0;0m
+[1;34m> $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat[0;0m
+[1;34m> $RepeatedMsgReduction on[0;0m
+[1;34m> $FileOwner syslog[0;0m
+[1;34m> $FileGroup adm[0;0m
+[1;34m> $FileCreateMode 0640[0;0m
+[1;34m> $DirCreateMode 0755[0;0m
+[1;34m> $Umask 0022[0;0m
+[1;34m> $PrivDropToUser syslog[0;0m
+[1;34m> $PrivDropToGroup syslog[0;0m
+[1;34m> $WorkDirectory /var/spool/rsyslog[0;0m
+[1;34m> $IncludeConfig /etc/rsyslog.d/*.conf[0;0m
+[31mTest #8 is failed!
+[0mRunning Test # 9 [            check_history]: [31mError with no arguments
+[0m[1;35m1c1,10[0;0m
+[1;31m< [0;0m
+[0;0m---[0;0m
+[1;34m> git status[0;0m
+[1;34m> git checkout HW_4/results[0;0m
+[1;34m> git checkout hw.log_4[0;0m
+[1;34m> vim check_4th_hw.sh [0;0m
+[1;34m> пше ик[0;0m
+[1;34m> git branch[0;0m
+[1;34m> git checkout anatolii.tytarenko [0;0m
+[1;34m> git branch [0;0m
+[1;34m> minicom -wD /dev/ttyUSB2 [0;0m
+[1;34m> vim basecamp/check_third_hw.sh [0;0m
+[31mTest #9 is failed!
 [0m[31mFile task_10.enc is missed
 [0mRunning Test #11 [       check_sorted_files]: [1;35m1c1,6[0;0m
 [1;31m< [0;0m
@@ -24,7 +56,7 @@ Running Test # 1 [      check_to_upper_case]: [32mPassed
 [0mRunning Test #15 [  _check_awk_additional_3]: [31mTest #15 is failed!
 [0mRunning Test #16 [    _check_commit_message]: [31mYour commit message should be like the following:
 Pavel Baidaus: Homework #4
-Attempt #3
+Attempt #4
 [0m[32mPassed
 [0m[96mYour evaluation is finished! You've got 7 from 16 points.
 [0m
